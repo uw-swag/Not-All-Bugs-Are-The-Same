@@ -4,7 +4,8 @@ Not all bugs are the same: Analyzing differences between bugs, and the ability o
 
 Kilby James Baron (1), Harold Valdivia-Garcia (2), Gema Rodriguez-Perez (1), Meiyappan Nagappan (1), and Michael Godfrey (1)
 
-(1) Department of Software Engineering, University of Waterloo, Waterloo, Ontario
+(1) Department of Software Engineering, University of Waterloo, Waterloo, Ontario  
+
 (2) Bloomberg LP, United States
 
 
