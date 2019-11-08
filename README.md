@@ -19,6 +19,7 @@ Kilby James Baron (1), Harold Valdivia-Garcia (2), Gema Rodriguez-Perez (1), Mei
     <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
   </head>
   
+  <button name="button" onclick="http://www.google.com">Click me</button>
   <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same" class="btn">View on GitHub</a>
   <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same/archive/master.zip" class="btn">Download .zip</a>
   <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same//tarball/master" class="btn">Download .tar.gz</a>
