@@ -12,22 +12,12 @@ Kilby James Baron (1), Harold Valdivia-Garcia (2), Gema Rodriguez-Perez (1), Mei
 (1) Department of Software Engineering, University of Waterloo, Waterloo, Ontario  
 (2) Bloomberg LP, United States
 
-<html lang="en-us">
-  
-  <head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css" media="screen">
-  </head>
-  
+
   <button name="button" onclick="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same">View on GitHub</button>
   <button name="button" onclick="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same/archive/master.zip">Download.zip</button>
   <button name="button" onclick="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same//tarball/master">Download .tar.gz</button>
   
-  <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same" class="btn">View on GitHub</a>
-  <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same/archive/master.zip" class="btn">Download .zip</a>
-  <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same//tarball/master" class="btn">Download .tar.gz</a>
 
-</html>
 
 ---
 
