@@ -1,0 +1,23 @@
+Notes about correlation between priority and developer experience:
+
+Bug Level:
+
+- most bugs are priority level 3, this could be because 3 is the default perhaps?
+- level 1 priority bugs have the highest mean and median experiences
+- Mean experience trends slightly down between priority 2-5, while median trends slightly upwards
+	- The boxplots suggest the mean trends down because of fewer high exp outliers from 2-5
+
+
+File level:
+
+- most files are priority level 3
+- mean and median priority 1 files have lowest exp
+- priority 2 files have the mighest mean and median exps
+- no significant correlation
+
+
+Bug level vs File level:
+
+- way more files with priority 1 & 2 compared to bugs
+- While bug level shows priority 1 having highest exp, file level shows priority 1 having lowest experience by far
+- to me this suggest that inexperienced devs are given menial low priority tasks that change lots of files

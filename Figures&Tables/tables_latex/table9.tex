@@ -1,0 +1,28 @@
+\begin{table}[!hb]								
+\centering								
+\caption{Correlation of the dependent variables for buggy files. \gema{I'm not sure about the number}}								
+\label{fig:correlation-cassandra}								
+\resizebox{0.89\columnwidth}{!}{		
+\begin{tabular}{ |l| | c  r  c | c  r  c | c  r  c | }  \cline{2-10}
+\multicolumn{1}{c|}{}	& \multicolumn{9}{c|}{\bfseries Correlation between $\Yissues$  } \\
+												
+%Number of files missed when sorted based on Rank# Bugs instead of																				
+\multicolumn{1}{c|}{}	& \multicolumn{3}{c|}{$\Yeffort$ }		& \multicolumn{3}{c|}{$\Yexp$}		& \multicolumn{3}{c|}{Y{Priority}}	 \\ \hline 
+\bfseries Project  &	R1	&	R2	&	R3	&  R1	&	R2	&	R3	&  R1	&	R2	&	R3 	\\ \hline \hline
+
+Accumulo	&	0.04	&	0.25	&	0.02	&	-0.01	&	0.1	&	0.01	&	-0.06	&	0.16	&	-0.05	\\ \hline
+Bookkeeper	&	0.31	&	-0.07	&	-0.05	&	0.59	&	0.11	&	0.1	&	0.46	&	0.02	&	0.19	\\ \hline
+Camel	&	0.01	&	0.04	&	-0.04	&	-0.06	&	-0.03	&	-0.06	&	-0.09	&	0.09	&	0.09	\\ \hline
+Cassandra	&	0.01	&	-0.0	&	-0.03	&	0.1	&	0.17	&	0.11	&	-0.02	&	0.11	&	-0.01	\\ \hline
+Cxf	&	0.01	&	-0.03	&	0.0	&	-0.09	&	0.14	&	0.18	&	-0.08	&	0.11	&	0.01	\\ \hline
+Derby	&	0.02	&	0.04	&	0.11	&	0.01	&	0.32	&	0.16	&	0.01	&	0.5	&	0.26	\\ \hline
+Felix	&	-0.18	&	-0.17	&	0.11	&	nan	&	-0.02	&	-0.15	&	0.58	&	-0.05	&	-0.08	\\ \hline
+Hive	&	0.13	&	0.0	&	-0.04	&	0.21	&	0.0	&	0.03	&	-0.14	&	0.0	&	-0.08	\\ \hline
+Openjpa	&	-0.01	&	-0.36	&	0.29	&	0.05	&	0.14	&	-0.02	&	0.28	&	0.21	&	0.04	\\ \hline
+Pig	&	-0.25	&	0.08	&	-0.03	&	-0.06	&	-0.2	&	-0.03	&	0.48	&	0.14	&	-0.05	\\ \hline
+Wicket	&	-0.01	&	-0.0	&	0.22	&	-0.06	&	0.16	&	0.07	&	-0.04	&	0.03	&	0.14	\\ \hline
+
+
+\end{tabular}																				
+}
+\end{table}	
