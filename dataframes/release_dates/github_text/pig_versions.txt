@@ -1,0 +1,177 @@
+on Jun 14, 2017 
+release-0.17.0
+ 8e29732   zip   tar.gz
+on Jun 2, 2017 
+release-0.17.0-rc0
+ bdd48a7   zip   tar.gz
+on Jun 7, 2016 
+release-0.16.0
+ b48b60f   zip   tar.gz
+on Jun 2, 2016 
+release-0.16.0-rc0
+ e79358d   zip   tar.gz
+on Jun 5, 2015 
+release-0.15.0
+ a3bba16   zip   tar.gz
+on Jun 4, 2015 
+release-0.15.0-rc1
+ 7f587f5   zip   tar.gz
+on May 25, 2015 
+release-0.15.0-rc0
+ 878068b   zip   tar.gz
+on Nov 20, 2014 
+release-0.14.0
+ a6e5c6b   zip   tar.gz
+on Nov 16, 2014 
+release-0.14.0-rc1
+ 0d9cf56   zip   tar.gz
+on Nov 12, 2014 
+release-0.14.0-rc0
+ aa4f81b   zip   tar.gz
+on Jul 3, 2014 
+release-0.13.0
+ 3fb1899   zip   tar.gz
+on Jun 9, 2014 
+release-0.13.0-rc0
+ 0bb3319   zip   tar.gz
+on Apr 11, 2014 
+release-0.12.1
+ 6ca488b   zip   tar.gz
+on Apr 7, 2014 
+release-0.12.1-rc0
+ a980570   zip   tar.gz
+on Oct 11, 2013 
+release-0.12.0
+ 9cfd293   zip   tar.gz
+on Oct 8, 2013 
+release-0.12.0-rc2
+ dd3de32   zip   tar.gz
+on Oct 6, 2013 
+release-0.12.0-rc1
+ 479b5ed   zip   tar.gz
+on Oct 5, 2013 
+release-0.12.0-rc0
+ 5bda380   zip   tar.gz
+on Apr 1, 2013 
+release-0.11.1
+ 65fb246   zip   tar.gz
+on Mar 21, 2013 
+release-0.11.1-rc0
+ 7e3dfdf   zip   tar.gz
+on Feb 21, 2013 
+release-0.11.0
+ 0442002   zip   tar.gz
+on Feb 14, 2013 
+release-0.11.0-rc2
+ 95fb7ba   zip   tar.gz
+on Feb 11, 2013 
+release-0.11.0-rc1
+ 5cb59c0   zip   tar.gz
+on Feb 9, 2013 
+release-0.11.0-rc0
+ f44513c   zip   tar.gz
+on Jan 5, 2013 
+release-0.10.1
+ 7ba5b95   zip   tar.gz
+on Dec 27, 2012 
+release-0.10.1-rc1
+ b40c49a   zip   tar.gz
+on Dec 20, 2012 
+release-0.10.1-rc0
+ b232f14   zip   tar.gz
+on Jun 5, 2012 
+release-0.10.0
+ f0a35e4   zip   tar.gz
+on Jun 5, 2012 
+release-0.10.0.new
+ 9126d72   zip   tar.gz
+on Apr 20, 2012 
+release-0.10.0-rc0
+ 1cc36f9   zip   tar.gz
+on Jan 21, 2012 
+release-0.9.2
+ 56d98eb   zip   tar.gz
+on Jan 18, 2012 
+release-0.9.2-rc1
+ e75439c   zip   tar.gz
+on Jan 15, 2012 
+release-0.9.2-rc0
+ 591dbb7   zip   tar.gz
+on Oct 4, 2011 
+release-0.9.1
+ 0c05826   zip   tar.gz
+on Oct 4, 2011 
+release-0.9.1-rc1
+ a9b02c3   zip   tar.gz
+on Sep 27, 2011 
+release-0.9.1-rc0
+ 5981ffd   zip   tar.gz
+on Jul 27, 2011 
+release-0.9.0
+ 9f1ec1c   zip   tar.gz
+on Jul 15, 2011 
+release-0.9.0-rc1
+ 4948ed0   zip   tar.gz
+on Jun 16, 2011 
+release-0.9.0-rc0
+ b64ceda   zip   tar.gz
+on Apr 23, 2011 
+release-0.8.1
+ 4d5d3e9   zip   tar.gz
+on Apr 18, 2011 
+release-0.8.1-rc0
+ 92cb871   zip   tar.gz
+on Dec 16, 2010 
+release-0.8.0
+ 59ecf64   zip   tar.gz
+on Oct 6, 2010 
+types-stable-2
+ 898dab6   zip   tar.gz
+on Oct 6, 2010 
+types-stable-1
+ 9c0a08e   zip   tar.gz
+on Oct 6, 2010 
+release-0.7.0
+ fe5c00a   zip   tar.gz
+on Oct 6, 2010 
+release-0.6.0
+ 84c1a46   zip   tar.gz
+on Oct 6, 2010 
+release-0.6.0-rc0
+ 039ef6f   zip   tar.gz
+on Oct 6, 2010 
+release-0.5.0
+ e14b760   zip   tar.gz
+on Oct 6, 2010 
+release-0.4.0
+ afb722b   zip   tar.gz
+on Oct 6, 2010 
+release-0.4.0-rc0
+ 2d163fa   zip   tar.gz
+on Oct 6, 2010 
+release-0.3.0
+ ed3cbea   zip   tar.gz
+on Oct 6, 2010 
+release-0.2.0
+ f1b37b5   zip   tar.gz
+on Oct 6, 2010 
+release-0.2.0-rc1
+ 7c80054   zip   tar.gz
+on Oct 6, 2010 
+release-0.2.0-rc0
+ 394f59d   zip   tar.gz
+on Oct 6, 2010 
+release-0.1.1
+ 6614ca1   zip   tar.gz
+on Oct 6, 2010 
+release-0.1.1-rc1
+ 434b2e4   zip   tar.gz
+on Oct 6, 2010 
+release-0.1.0
+ 164c73e   zip   tar.gz
+on Oct 6, 2010 
+pre-multiquery-phase2
+ a3bd608   zip   tar.gz
+on Oct 6, 2010 
+PIG-1045
+ 8784eda   zip   tar.gz

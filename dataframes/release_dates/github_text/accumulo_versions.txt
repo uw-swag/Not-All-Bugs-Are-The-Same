@@ -1,0 +1,99 @@
+on Apr 10 
+rel/1.9.3  …
+ a834aa8   zip   tar.gz
+on Jan 31 
+rel/2.0.0-alpha-2  …
+ 4d8405c   zip   tar.gz
+on Oct 14, 2018 
+rel/2.0.0-alpha-1  …
+ 9244e2c   zip   tar.gz
+on Jul 18, 2018 
+rel/1.9.2  …
+ 3520d31   zip   tar.gz
+on May 14, 2018 
+rel/1.9.1  …
+ 73ebaa9   zip   tar.gz
+on Apr 18, 2018 
+rel/1.9.0  …
+ bca5160   zip   tar.gz
+on Mar 23, 2018 
+rel/1.7.4  …
+ b2a5918   zip   tar.gz
+on Mar 26, 2017 
+rel/1.7.3  …
+ 38d8a1d   zip   tar.gz
+on Feb 27, 2017 
+rel/1.8.1  …
+ 49420c3   zip   tar.gz
+on Sep 18, 2016 
+rel/1.6.6  …
+ 2073a07   zip   tar.gz
+on Sep 6, 2016 
+rel/1.8.0  …
+ a8a6329   zip   tar.gz
+on Jun 22, 2016 
+rel/1.7.2  …
+ a01e677   zip   tar.gz
+on Feb 25, 2016 
+rel/1.7.1  …
+ 2e0821a   zip   tar.gz
+on Feb 16, 2016 
+rel/1.6.5  …
+ c8ad82d   zip   tar.gz
+on Oct 3, 2015 
+1.6.4  …
+ edba4f4   zip   tar.gz
+on Sep 20, 2015 
+1.5.4  …
+ 151db23   zip   tar.gz
+on Jul 4, 2015 
+1.6.3  …
+ 741f4b3   zip   tar.gz
+on Jun 25, 2015 
+1.5.3  …
+ 9009d48   zip   tar.gz
+on May 19, 2015 
+1.7.0  …
+ 8cba812   zip   tar.gz
+on Feb 16, 2015 
+1.6.2  …
+ 42943a1   zip   tar.gz
+on Sep 25, 2014 
+1.6.1  …
+ 88c5473   zip   tar.gz
+on Sep 18, 2014 
+1.5.2  …
+ 039a2c2   zip   tar.gz
+on May 2, 2014 
+1.6.0  …
+ 0616258   zip   tar.gz
+on Apr 4, 2014 
+1.4.5  …
+ f7d87b6   zip   tar.gz
+on Mar 3, 2014 
+1.5.1  …
+ 3478f71   zip   tar.gz
+on Aug 15, 2013 
+1.4.4  …
+ 419aacc   zip   tar.gz
+on May 24, 2013 
+1.5.0
+ 5266a71   zip   tar.gz
+on Mar 18, 2013 
+1.4.3
+ b73364a   zip   tar.gz
+on Nov 15, 2012 
+1.4.2
+ 017805e   zip   tar.gz
+on Jul 9, 2012 
+1.3.6
+ 3b4ffc1   zip   tar.gz
+on Jul 3, 2012 
+1.4.1
+ a4577b2   zip   tar.gz
+on Mar 30, 2012 
+1.4.0
+ c8dc9cb   zip   tar.gz
+on Mar 26, 2012 
+1.3.5
+ a2ada96   zip   tar.gz

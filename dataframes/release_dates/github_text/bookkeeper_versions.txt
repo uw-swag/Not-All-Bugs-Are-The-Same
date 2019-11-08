@@ -1,0 +1,85 @@
+8 days ago 
+v4.9.2-rc0  …
+ 2cda8e7   zip   tar.gz
+on Apr 11 
+release-4.9.1-docker  …
+ c053b81   zip   tar.gz
+on Apr 6 
+release-4.9.1  …
+ c053b81   zip   tar.gz
+on Apr 2 
+release-4.8.2-docker  …
+ 5e9828b   zip   tar.gz
+on Mar 26 
+release-4.8.2  …
+ f6adb28   zip   tar.gz
+on Feb 1 
+release-4.9.0  …
+ 55fd2ad   zip   tar.gz
+on Dec 5, 2018 
+release-4.8.1  …
+ bf61499   zip   tar.gz
+on Dec 5, 2018 
+release-4.7.3  …
+ 2fb7f3a   zip   tar.gz
+on Sep 20, 2018 
+release-4.8.0  …
+ 6172e31   zip   tar.gz
+on Sep 10, 2018 
+release-4.7.2  …
+ 47dc320   zip   tar.gz
+on Jun 19, 2018 
+release-4.7.1  …
+ db4e529   zip   tar.gz
+on Apr 17, 2018 
+release-4.7.0  …
+ d4e972d   zip   tar.gz
+on Apr 3, 2018 
+release-4.6.2  …
+ f142315   zip   tar.gz
+on Jan 30, 2018 
+release-4.6.1  …
+ 1f62303   zip   tar.gz
+on Dec 25, 2017 
+release-4.6.0  …
+ 92b438c   zip   tar.gz
+on Dec 2, 2017 
+release-4.5.1  …
+ 3ea2b38   zip   tar.gz
+on Aug 14, 2017 
+release-4.5.0  …
+ 8659197   zip   tar.gz
+on May 5, 2016 
+release-4.4.0  …
+ 8bb39b1   zip   tar.gz
+on Nov 17, 2015 
+release-4.3.2  …
+ 8653819   zip   tar.gz
+on May 20, 2015 
+release-4.3.1  …
+ de41dbb   zip   tar.gz
+on Dec 19, 2014 
+release-4.2.4  …
+ 21f4a4c   zip   tar.gz
+on Oct 8, 2014 
+release-4.3.0
+ 9474696   zip   tar.gz
+on Jun 23, 2014 
+release-4.2.3
+ 9cccf3d   zip   tar.gz
+on Oct 2, 2013 
+release-4.2.2
+ 16c7a1c   zip   tar.gz
+on Feb 19, 2013 
+release-4.2.1
+ 6af8f6e   zip   tar.gz
+on Jan 14, 2013 
+release-4.2.0
+ 5ef2f7e   zip   tar.gz
+on Jun 7, 2012 
+release-4.1.0
+ d867700   zip   tar.gz
+on Dec 2, 2011 
+release-4.0.0
+ 92e28b6   zip   tar.gz
+

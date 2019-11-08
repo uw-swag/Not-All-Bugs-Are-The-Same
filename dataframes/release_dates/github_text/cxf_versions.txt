@@ -1,0 +1,441 @@
+2 days ago 
+cxf-3.3.2  …
+ 3c82c9d   zip   tar.gz
+2 days ago 
+cxf-3.2.9  …
+ a00f4ad   zip   tar.gz
+on Feb 28 
+cxf-3.3.1  …
+ 7458fae   zip   tar.gz
+on Jan 25 
+cxf-3.1.18  …
+ 7a26b73   zip   tar.gz
+on Jan 24 
+cxf-3.3.0  …
+ 8f90e00   zip   tar.gz
+on Jan 24 
+cxf-3.2.8  …
+ 38dfa47   zip   tar.gz
+on Oct 24, 2018 
+cxf-3.2.7  …
+ d06235a   zip   tar.gz
+on Sep 29, 2018 
+cxf-3.1.17  …
+ 48fbcec   zip   tar.gz
+on Aug 8, 2018 
+cxf-3.2.6  …
+ d3534ea   zip   tar.gz
+on Jun 18, 2018 
+cxf-3.2.5  …
+ bc2f01b   zip   tar.gz
+on Jun 18, 2018 
+cxf-3.1.16  …
+ 1039320   zip   tar.gz
+on Mar 22, 2018 
+cxf-3.2.4  …
+ 60b94b9   zip   tar.gz
+on Mar 16, 2018 
+cxf-3.2.3  …
+ b82303b   zip   tar.gz
+on Mar 7, 2018 
+cxf-3.1.15  …
+ 4a57c48   zip   tar.gz
+on Feb 2, 2018 
+cxf-3.2.2  …
+ d579d79   zip   tar.gz
+on Nov 23, 2017 
+cxf-3.0.16  …
+ 0d845b9   zip   tar.gz
+on Nov 2, 2017 
+cxf-3.2.1  …
+ dc2d22e   zip   tar.gz
+on Nov 2, 2017 
+cxf-3.1.14  …
+ 4b7b2c7   zip   tar.gz
+on Sep 6, 2017 
+cxf-3.2.0  …
+ f5ee3b7   zip   tar.gz
+on Sep 6, 2017 
+cxf-3.1.13  …
+ c98e409   zip   tar.gz
+on Sep 6, 2017 
+cxf-3.0.15  …
+ 4a4aa0e   zip   tar.gz
+on Jul 31, 2017 
+cxf-2.6.17  …
+ 03b40aa   zip   tar.gz
+on Jun 26, 2017 
+cxf-3.1.12  …
+ 0a88d86   zip   tar.gz
+on Jun 26, 2017 
+cxf-3.0.14  …
+ 9ed0ffb   zip   tar.gz
+on Apr 5, 2017 
+cxf-3.1.11  …
+ df51c99   zip   tar.gz
+on Apr 5, 2017 
+cxf-3.0.13  …
+ e58227c   zip   tar.gz
+on Jan 27, 2017 
+cxf-3.1.10  …
+ fecf633   zip   tar.gz
+on Dec 9, 2016 
+cxf-3.1.9  …
+ 7cd4d49   zip   tar.gz
+on Dec 9, 2016 
+cxf-3.0.12  …
+ c98cb31   zip   tar.gz
+on Oct 14, 2016 
+cxf-3.1.8  …
+ 32a346e   zip   tar.gz
+on Oct 14, 2016 
+cxf-3.0.11  …
+ 6c7df35   zip   tar.gz
+on Jul 26, 2016 
+cxf-3.1.7  …
+ bf2f100   zip   tar.gz
+on Jul 26, 2016 
+cxf-3.0.10  …
+ 0117773   zip   tar.gz
+on Mar 23, 2016 
+cxf-3.1.6  …
+ 8632867   zip   tar.gz
+on Mar 23, 2016 
+cxf-3.0.9  …
+ d12248d   zip   tar.gz
+on Feb 2, 2016 
+cxf-3.1.5  …
+ f772a19   zip   tar.gz
+on Feb 2, 2016 
+cxf-3.0.8  …
+ 1b8726d   zip   tar.gz
+on Oct 30, 2015 
+cxf-3.1.4  …
+ 16d789c   zip   tar.gz
+on Oct 30, 2015 
+cxf-3.0.7  …
+ 77d7b77   zip   tar.gz
+on Oct 30, 2015 
+cxf-2.7.18  …
+ 4ee08d3   zip   tar.gz
+on Sep 16, 2015 
+cxf-3.1.3  …
+ f318510   zip   tar.gz
+on Jul 28, 2015 
+cxf-3.1.2  …
+ bc9e371   zip   tar.gz
+on Jul 27, 2015 
+cxf-3.0.6  …
+ 91be008   zip   tar.gz
+on Jul 27, 2015 
+cxf-2.7.17  …
+ 8bd9499   zip   tar.gz
+on Jun 5, 2015 
+cxf-3.1.1  …
+ cdafd37   zip   tar.gz
+on May 1, 2015 
+cxf-3.1.0  …
+ a04a1e0   zip   tar.gz
+on Apr 30, 2015 
+cxf-3.0.5  …
+ ca3b414   zip   tar.gz
+on Apr 30, 2015 
+cxf-2.7.16  …
+ bce047e   zip   tar.gz
+on Feb 11, 2015 
+cxf-3.0.4  …
+ ccb5aad   zip   tar.gz
+on Feb 11, 2015 
+cxf-2.7.15  …
+ 4b006fe   zip   tar.gz
+on Dec 2, 2014 
+cxf-3.0.3  …
+ 5075f93   zip   tar.gz
+on Dec 2, 2014 
+cxf-2.7.14  …
+ a94dcb6   zip   tar.gz
+on Oct 8, 2014 
+cxf-3.0.2  …
+ 425c95d   zip   tar.gz
+on Oct 7, 2014 
+cxf-2.7.13  …
+ 46bbaa2   zip   tar.gz
+on Oct 7, 2014 
+cxf-2.6.16  …
+ 7add124   zip   tar.gz
+on Jul 15, 2014 
+cxf-3.0.1  …
+ 1704fa3   zip   tar.gz
+on Jul 15, 2014 
+cxf-2.7.12  …
+ fbd7304   zip   tar.gz
+on Jul 15, 2014 
+cxf-2.6.15  …
+ e51c40d   zip   tar.gz
+on May 14, 2014 
+cxf-3.0.0  …
+ fd92c80   zip   tar.gz
+on Apr 8, 2014 
+cxf-2.7.11  …
+ 0649959   zip   tar.gz
+on Apr 8, 2014 
+cxf-2.6.14  …
+ f239e03   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.10  …
+ dc1436d   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.9  …
+ b9f9f83   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.8  …
+ 0e6006f   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.7  …
+ 0f04cb3   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.6  …
+ 5576a21   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.5  …
+ e95a72e   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.4  …
+ 837683b   zip   tar.gz
+on Feb 18, 2014 
+cxf-2.7.3  …
+ 33e5125   zip   tar.gz
+on Feb 14, 2014 
+cxf-3.0.0-milestone2
+ 4240977   zip   tar.gz
+on Feb 6, 2014 
+cxf-2.6.13
+ f2247b3   zip   tar.gz
+on Jan 29, 2014 
+cxf-2.6.12
+ a5fbc49   zip   tar.gz
+on Nov 26, 2013 
+cxf-3.0.0-milestone1
+ af00425   zip   tar.gz
+on Nov 19, 2013 
+cxf-2.6.11
+ a29f851   zip   tar.gz
+on Sep 13, 2013 
+cxf-2.6.10
+ 9aa99dc   zip   tar.gz
+on Jul 16, 2013 
+cxf-2.6.9
+ 8ee663e   zip   tar.gz
+on Jul 16, 2013 
+cxf-2.5.11
+ f79d509   zip   tar.gz
+on May 3, 2013 
+cxf-2.6.8
+ d739bef   zip   tar.gz
+on Mar 28, 2013 
+cxf-2.6.7
+ 9a8a64c   zip   tar.gz
+on Mar 28, 2013 
+cxf-2.5.10
+ 92ffb09   zip   tar.gz
+on Jan 28, 2013 
+cxf-2.6.6
+ 8204ac6   zip   tar.gz
+on Jan 28, 2013 
+cxf-2.5.9
+ ac9f5ba   zip   tar.gz
+on Jan 4, 2013 
+cxf-2.7.2
+ 7e5f15c   zip   tar.gz
+on Jan 4, 2013 
+cxf-2.6.5
+ 9c1dd7f   zip   tar.gz
+on Jan 4, 2013 
+cxf-2.5.8
+ f68d61a   zip   tar.gz
+on Dec 6, 2012 
+cxf-2.7.1
+ 0b6213f   zip   tar.gz
+on Dec 6, 2012 
+cxf-2.6.4
+ 937a364   zip   tar.gz
+on Dec 6, 2012 
+cxf-2.5.7
+ 8b63dd6   zip   tar.gz
+on Oct 5, 2012 
+cxf-2.7.0
+ 09271cd   zip   tar.gz
+on Oct 5, 2012 
+cxf-2.6.3
+ 205c5d5   zip   tar.gz
+on Oct 5, 2012 
+cxf-2.5.6
+ 17857a9   zip   tar.gz
+on Oct 5, 2012 
+cxf-2.4.10
+ 046c9bc   zip   tar.gz
+on Aug 14, 2012 
+cxf-2.6.2
+ f35ddea   zip   tar.gz
+on Aug 14, 2012 
+cxf-2.5.5
+ 86503f8   zip   tar.gz
+on Aug 14, 2012 
+cxf-2.4.9
+ 3a0e8b5   zip   tar.gz
+on May 30, 2012 
+cxf-2.6.1
+ 86bf257   zip   tar.gz
+on May 30, 2012 
+cxf-2.5.4
+ ee4f212   zip   tar.gz
+on May 30, 2012 
+cxf-2.4.8
+ b53a7bf   zip   tar.gz
+on May 29, 2012 
+cxf-2.3.11
+ 8b1b0f0   zip   tar.gz
+on Apr 12, 2012 
+cxf-2.6.0
+ 63f0ec1   zip   tar.gz
+on Apr 12, 2012 
+cxf-2.5.3
+ cf4756e   zip   tar.gz
+on Apr 11, 2012 
+cxf-2.4.7
+ 14211a2   zip   tar.gz
+on Apr 11, 2012 
+cxf-2.3.10
+ 5437cd3   zip   tar.gz
+on Jan 20, 2012 
+cxf-2.5.2
+ cdf6522   zip   tar.gz
+on Jan 19, 2012 
+cxf-2.4.6
+ 573721d   zip   tar.gz
+on Jan 19, 2012 
+cxf-2.3.9
+ 682db87   zip   tar.gz
+on Dec 15, 2011 
+cxf-2.5.1
+ 2b27d76   zip   tar.gz
+on Dec 13, 2011 
+cxf-2.4.5
+ 09309a0   zip   tar.gz
+on Dec 13, 2011 
+cxf-2.3.8
+ 20651a3   zip   tar.gz
+on Nov 3, 2011 
+cxf-2.4.4
+ bf6844f   zip   tar.gz
+on Oct 28, 2011 
+cxf-2.5.0
+ 27feb48   zip   tar.gz
+on Oct 4, 2011 
+cxf-2.4.3
+ ce9df55   zip   tar.gz
+on Oct 4, 2011 
+cxf-2.3.7
+ f386142   zip   tar.gz
+on Aug 11, 2011 
+cxf-2.4.2
+ f828b71   zip   tar.gz
+on Aug 10, 2011 
+cxf-2.3.6
+ b751ce3   zip   tar.gz
+on Jun 9, 2011 
+cxf-2.4.1
+ 48507c3   zip   tar.gz
+on Jun 9, 2011 
+cxf-2.3.5
+ 725f548   zip   tar.gz
+on Apr 12, 2011 
+cxf-2.4.0
+ 5d63a65   zip   tar.gz
+on Apr 12, 2011 
+cxf-2.3.4
+ db1fbda   zip   tar.gz
+on Feb 23, 2011 
+cxf-2.3.3
+ 14737aa   zip   tar.gz
+on Jan 17, 2011 
+cxf-2.3.2
+ 70cab15   zip   tar.gz
+on Dec 1, 2010 
+cxf-2.3.1
+ e32c5ba   zip   tar.gz
+on Dec 1, 2010 
+cxf-2.2.12
+ 34bd49b   zip   tar.gz
+on Oct 7, 2010 
+cxf-2.3.0
+ ea6f198   zip   tar.gz
+on Oct 7, 2010 
+cxf-2.2.11
+ 4c72cc5   zip   tar.gz
+on Aug 12, 2010 
+cxf-2.2.10
+ 091dab6   zip   tar.gz
+on Jun 2, 2010 
+cxf-2.2.9
+ 085837d   zip   tar.gz
+on Jun 1, 2010 
+cxf-2.1.10
+ c1927a6   zip   tar.gz
+on May 7, 2010 
+cxf-2.2.8
+ 09cedde   zip   tar.gz
+on Mar 18, 2010 
+cxf-2.2.7
+ de77560   zip   tar.gz
+on Jan 19, 2010 
+cxf-2.2.6
+ 4653eab   zip   tar.gz
+on Jan 19, 2010 
+cxf-2.1.9
+ 20d88b6   zip   tar.gz
+on Nov 15, 2009 
+cxf-2.1.8
+ 0035d7a   zip   tar.gz
+on Nov 14, 2009 
+cxf-2.2.5
+ 5f4c4dd   zip   tar.gz
+on Oct 7, 2009 
+cxf-2.2.4
+ 69565e2   zip   tar.gz
+on Oct 7, 2009 
+cxf-2.1.7
+ 3e2217b   zip   tar.gz
+on Jul 29, 2009 
+cxf-2.2.3
+ c534c75   zip   tar.gz
+on Jul 29, 2009 
+cxf-2.1.6
+ 3efd6fe   zip   tar.gz
+on May 22, 2009 
+cxf-2.2.2
+ fd93131   zip   tar.gz
+on Apr 21, 2009 
+cxf-2.2.1
+ 107c812   zip   tar.gz
+on Apr 21, 2009 
+cxf-2.1.5
+ 8bad465   zip   tar.gz
+on Mar 15, 2009 
+cxf-2.2
+ c0cf68a   zip   tar.gz
+on Feb 5, 2009 
+cxf-2.1.4
+ 246a784   zip   tar.gz
+on Oct 22, 2008 
+cxf-2.1.3
+ 3f07252   zip   tar.gz
+on Aug 12, 2008 
+cxf-2.1.2
+ 476c6b1   zip   tar.gz
+on Jun 16, 2008 
+cxf-2.1.1
+ c140ed9   zip   tar.gz
+on Apr 25, 2008 
+cxf-2.1
+ bd4b6d0   zip   tar.gz

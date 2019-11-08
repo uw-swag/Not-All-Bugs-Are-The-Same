@@ -1,0 +1,147 @@
+5 days ago 
+release-2.3.5-rc0  …
+ 7659562   zip   tar.gz
+on Nov 5, 2018 
+rel/release-2.3.4  …
+ 56acdd2   zip   tar.gz
+on Oct 31, 2018 
+rel/release-3.1.1  …
+ f4e0529   zip   tar.gz
+on Jul 29, 2018 
+rel/release-3.1.0  …
+ bcc7df9   zip   tar.gz
+on Jul 18, 2018 
+rel/storage-release-2.7.0  …
+ e59fdf9   zip   tar.gz
+on Jul 12, 2018 
+storage-release-2.7.0-rc1  …
+ e59fdf9   zip   tar.gz
+on Jul 6, 2018 
+storage-release-2.7.0-rc0  …
+ 13802a2   zip   tar.gz
+on Jun 7, 2018 
+rel/standalone-metastore-release-3.0.0  …
+ ce61711   zip   tar.gz
+on Jun 7, 2018 
+rel/release-3.0.0  …
+ ce61711   zip   tar.gz
+on May 11, 2018 
+rel/storage-release-2.6.1  …
+ 489f6a2   zip   tar.gz
+on Apr 30, 2018 
+rel/storage-release-2.6.0  …
+ 657dfef   zip   tar.gz
+on Apr 2, 2018 
+rel/release-2.3.3  …
+ 3f7dde3   zip   tar.gz
+on Mar 27, 2018 
+rel/storage-release-2.5.0  …
+ 4e018fa   zip   tar.gz
+on Nov 13, 2017 
+rel/release-2.3.2  …
+ 857a9fd   zip   tar.gz
+on Oct 24, 2017 
+rel/release-2.3.1  …
+ 7590572   zip   tar.gz
+on Jul 25, 2017 
+rel/release-2.2.0  …
+ da840b0   zip   tar.gz
+on Jul 17, 2017 
+rel/release-2.3.0  …
+ 6f4c35c   zip   tar.gz
+on May 30, 2017 
+rel/storage-release-2.3.1  …
+ 080d39c   zip   tar.gz
+on May 2, 2017 
+rel/storage-release-2.3.0  …
+ 30e6745   zip   tar.gz
+on Apr 6, 2017 
+rel/release-1.2.2  …
+ 395368f   zip   tar.gz
+on Feb 21, 2017 
+rel/storage-release-2.2.1  …
+ 131c949   zip   tar.gz
+on Jan 12, 2017 
+rel/storage-release-2.2.0  …
+ bd94a9c   zip   tar.gz
+on Dec 8, 2016 
+rel/release-2.1.1  …
+ 1af77bb   zip   tar.gz
+on Jun 21, 2016 
+rel/release-2.1.0  …
+ 9265bc2   zip   tar.gz
+on May 24, 2016 
+release-2.0.1  …
+ e3cfeeb   zip   tar.gz
+on Feb 15, 2016 
+release-2.0.0  …
+ 7f9f1fc   zip   tar.gz
+on Nov 30, 2015 
+master_2015_11_30  …
+ 0a96201   zip   tar.gz
+on Jun 23, 2015 
+release-1.2.1  …
+ 243e7c1   zip   tar.gz
+on May 20, 2015 
+release-1.1.1  …
+ 3e8d832   zip   tar.gz
+on May 19, 2015 
+release-1.0.1  …
+ 73b600d   zip   tar.gz
+on May 18, 2015 
+release-1.2.0  …
+ 7f237de   zip   tar.gz
+on Mar 8, 2015 
+release-1.1.0
+ e60744d   zip   tar.gz
+on Feb 3, 2015 
+release-1.0.0
+ 697aeca   zip   tar.gz
+on Nov 12, 2014 
+release-0.14.0
+ 70eea94   zip   tar.gz
+on Jun 5, 2014 
+release-0.13.1
+ 89bb2e8   zip   tar.gz
+on Apr 18, 2014 
+release-0.13.0
+ d0fe5f1   zip   tar.gz
+on Oct 14, 2013 
+release-0.12.0
+ b77a6ca   zip   tar.gz
+on May 15, 2013 
+release-0.11.0
+ 383fce6   zip   tar.gz
+on Jan 10, 2013 
+release-0.10.0
+ 7dde782   zip   tar.gz
+on Apr 27, 2012 
+release-0.9.0
+ 51807a7   zip   tar.gz
+on Jan 30, 2012 
+release-0.8.1
+ 9183f34   zip   tar.gz
+on Dec 15, 2011 
+release-0.8.0
+ d0d6943   zip   tar.gz
+on Jun 17, 2011 
+release-0.7.1
+ a30e096   zip   tar.gz
+on Mar 25, 2011 
+release-0.7.0
+ 5704958   zip   tar.gz
+on Oct 26, 2010 
+release-0.6.0
+ 2f01e05   zip   tar.gz
+on Oct 26, 2010 
+release-0.5.0
+ 3ffc9bd   zip   tar.gz
+on Oct 26, 2010 
+release-0.4.1
+ ae049d5   zip   tar.gz
+on Oct 26, 2010 
+release-0.4.0
+ 7737f2f   zip   tar.gz
+on Oct 26, 2010 
+release-0.3.0
+ 6aa1b48   zip   tar.gz

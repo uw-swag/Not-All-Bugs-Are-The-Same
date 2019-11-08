@@ -1,0 +1,105 @@
+on Apr 10 
+3.1.0  …
+ afcec21   zip   tar.gz
+on Jun 14, 2018 
+3.0.0
+ 2011491   zip   tar.gz
+on Jun 14, 2018 
+2.4.3
+ 8ea7cbc   zip   tar.gz
+on Jun 8, 2018 
+openjpa-parent-3.0.0
+ 5a19f02   zip   tar.gz
+on Jun 6, 2018 
+openjpa-parent-2.4.3
+ a912d70   zip   tar.gz
+on Jan 3, 2017 
+2.4.2
+ 4da43ef   zip   tar.gz
+on Feb 14, 2016 
+2.4.1
+ 628ccf1   zip   tar.gz
+on Feb 14, 2016 
+2.4.1-SNAPSHOT
+ 8481d6c   zip   tar.gz
+on May 5, 2015 
+2.4.0
+ 16cb3a2   zip   tar.gz
+on Apr 19, 2015 
+openjpa-parent-2.4.0
+ ed488c7   zip   tar.gz
+on Nov 21, 2013 
+2.3.0
+ 999338a   zip   tar.gz
+on Nov 11, 2013 
+openjpa-parent-2.3.0
+ 13e13e7   zip   tar.gz
+on Apr 16, 2013 
+2.2.2
+ d0a60af   zip   tar.gz
+on Apr 12, 2013 
+1.2.3
+ ccfa50d   zip   tar.gz
+on Nov 1, 2012 
+2.2.1
+ bbad323   zip   tar.gz
+on Feb 16, 2012 
+2.2.0
+ 56bea9f   zip   tar.gz
+on Jul 19, 2011 
+2.1.1
+ 2266648   zip   tar.gz
+on Feb 16, 2011 
+2.1.0
+ 631dd1f   zip   tar.gz
+on Aug 25, 2010 
+2.0.1
+ 805f554   zip   tar.gz
+on Aug 26, 2010 
+1.0.4
+ 222c73b   zip   tar.gz
+on Apr 19, 2010 
+2.0.0
+ 3c60517   zip   tar.gz
+on Mar 23, 2010 
+2.0.0-beta3
+ 3a9579f   zip   tar.gz
+on Feb 24, 2010 
+2.0.0-beta2
+ 99ec183   zip   tar.gz
+on Jan 28, 2010 
+2.0.0-beta
+ 898fa96   zip   tar.gz
+on Jan 13, 2010 
+1.2.2
+ 9d34ef9   zip   tar.gz
+on Oct 12, 2009 
+2.0.0-M3
+ 9233842   zip   tar.gz
+on Mar 14, 2009 
+1.2.0
+ df58521   zip   tar.gz
+on Mar 13, 2009 
+1.2.1
+ 26dbc39   zip   tar.gz
+on Jul 17, 2008 
+1.0.3
+ 943fb0c   zip   tar.gz
+on May 23, 2008 
+1.1.0
+ d5ddfa4   zip   tar.gz
+on Feb 18, 2008 
+1.0.2
+ 769364b   zip   tar.gz
+on Nov 9, 2007 
+1.0.1
+ dab9ad7   zip   tar.gz
+on Aug 28, 2007 
+1.0.0
+ 6bd6825   zip   tar.gz
+on May 22, 2007 
+0.9.7-incubating
+ 3da8509   zip   tar.gz
+on May 22, 2007 
+0.9.6-incubating
+ 0ce353d   zip   tar.gz

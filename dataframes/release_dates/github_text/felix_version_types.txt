@@ -1,0 +1,77 @@
+dependencymanager.annotations-
+framework.security-
+ configadmin-
+webconsole-event-plugin-
+jaas-
+webconsole-useradmin-plugin-
+systemready-
+scr ds annotations 
+shell.tui-
+ipojo-manipulator-
+http.sslfilter-
+ maven-scr-plugin-
+webconsole-
+scr.compat-
+inventory-
+healthcheck.generalchecks 
+ metatype-
+scr bnd plugin 
+eventadmin-
+script-console-
+scr generator 
+gogo.command-
+metatype-
+dependencymanager-
+maven-scr-plugin 
+ipojo-composite-
+gogo.shell-
+ fileinstall-
+ipojo-runtime-
+webconsole-upnp-plugin-  
+http.base-
+shell-
+ipojo-core-
+scr ant task 
+http.bridge-
+webconsole-packageadmin-plugin 
+karaf-
+ scr annotations 
+resolver-
+dependencymanager.runtime-
+scr-
+maven-scr-plugin-
+osgicheck-maven-plugin 
+httplite-
+coordinator-
+configurator-
+webconsole-ds-plugin-
+http.jetty-
+fileinstall-
+maven-bundle-plugin-
+utils-
+webconsole-deployment-admin-plugin-
+ipojo-annotations-
+autoconf-rp-
+bundlerepository-
+scr annotations 
+gogo.jline-
+webconsole-obr-plugin-
+shell.remote-
+webconsole-upnp-plugin-
+configadmin-
+converter-
+ scr-
+log-
+deploymentadmin-
+webconsole-memoryusage-plugin-
+http-
+prefs-
+iPOJO-
+framework-
+gogo-
+gogo.runtime-
+sigil-
+http.proxy-
+connect-
+upnp-basedriver-
+ webconsole-memoryusage-plugin- 

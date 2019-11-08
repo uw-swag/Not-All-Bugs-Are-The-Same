@@ -1,0 +1,1972 @@
+Kind,Name,AvgCyclomatic,CountLine,CountLineCode
+Package,"(Unnamed_Package)",0,28,3
+Public Class,"DefaultPackageClass",0,9,3
+File,"felix\obr.xml",0,39,21
+File,"felix\pom.xml",0,513,386
+File,"felix\src\main\java\org\apache\felix\scr\Component.java",0,393,43
+File,"felix\src\main\java\org\apache\felix\scr\Reference.java",0,147,19
+File,"felix\src\main\java\org\apache\felix\scr\ScrInfo.java",0,54,8
+File,"felix\src\main\java\org\apache\felix\scr\ScrService.java",0,89,9
+File,"felix\src\main\java\org\apache\felix\scr\component\ExtComponentContext.java",0,55,7
+File,"felix\src\main\java\org\apache\felix\scr\impl\Activator.java",2,420,264
+File,"felix\src\main\java\org\apache\felix\scr\impl\BundleComponentActivator.java",3,629,376
+File,"felix\src\main\java\org\apache\felix\scr\impl\ComponentActorThread.java",2,154,94
+File,"felix\src\main\java\org\apache\felix\scr\impl\ComponentRegistry.java",2,727,428
+File,"felix\src\main\java\org\apache\felix\scr\impl\ComponentRegistryKey.java",1,83,39
+File,"felix\src\main\java\org\apache\felix\scr\impl\ScrCommand.java",7,551,456
+File,"felix\src\main\java\org\apache\felix\scr\impl\ScrGogoCommand.java",1,130,76
+File,"felix\src\main\java\org\apache\felix\scr\impl\ScrShellCommand.java",3,168,130
+File,"felix\src\main\java\org\apache\felix\scr\impl\TargetedPID.java",2,264,130
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ComponentHolder.java",0,129,21
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ConfigurableComponentHolder.java",2,577,349
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ConfigurationSupport.java",3,654,504
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ScrConfiguration.java",1,290,182
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ScrManagedService.java",1,57,20
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ScrManagedServiceMetaTypeProvider.java",1,240,159
+File,"felix\src\main\java\org\apache\felix\scr\impl\config\ScrManagedServiceServiceFactory.java",1,72,34
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\ActivateMethod.java",3,274,179
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\BaseMethod.java",2,633,383
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\BindMethod.java",5,630,364
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\BindMethods.java",1,72,42
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\ComponentMethods.java",1,85,49
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\DeactivateMethod.java",1,47,19
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\Logger.java",0,70,8
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\MethodResult.java",1,63,21
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\ModifiedMethod.java",1,42,17
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\ReadOnlyDictionary.java",1,185,101
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\SimpleLogger.java",0,33,7
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\SuitableMethodNotAccessibleException.java",0,24,4
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\UnbindMethod.java",1,40,13
+File,"felix\src\main\java\org\apache\felix\scr\impl\helper\UpdatedMethod.java",1,40,13
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\AbstractComponentManager.java",2,1464,1076
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ComponentContextImpl.java",1,225,153
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ComponentFactoryImpl.java",1,526,301
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ConfigurationComponentFactoryImpl.java",1,270,152
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\DependencyManager.java",2,1973,1464
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\EdgeInfo.java",1,158,92
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\RefPair.java",1,83,47
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\RegistrationManager.java",2,217,166
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ServiceFactoryComponentManager.java",1,259,163
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ServiceTracker.java",3,1523,636
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ServiceTrackerCustomizer.java",0,100,8
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\SingleComponentManager.java",2,943,632
+File,"felix\src\main\java\org\apache\felix\scr\impl\manager\ThreadDump.java",3,51,28
+File,"felix\src\main\java\org\apache\felix\scr\impl\metadata\ComponentMetadata.java",2,847,409
+File,"felix\src\main\java\org\apache\felix\scr\impl\metadata\PropertyMetadata.java",5,336,222
+File,"felix\src\main\java\org\apache\felix\scr\impl\metadata\ReferenceMetadata.java",1,503,226
+File,"felix\src\main\java\org\apache\felix\scr\impl\metadata\ServiceMetadata.java",1,98,36
+File,"felix\src\main\java\org\apache\felix\scr\impl\metadata\XmlHandler.java",5,516,296
+File,"felix\src\main\java\org\apache\felix\scr\impl\parser\KXml2SAXHandler.java",0,69,19
+File,"felix\src\main\java\org\apache\felix\scr\impl\parser\KXml2SAXParser.java",2,159,96
+File,"felix\src\main\java\org\apache\felix\scr\impl\parser\ParseException.java",1,27,7
+File,"felix\src\test\java\DefaultPackageClass.java",0,28,3
+File,"felix\src\test\java\org\apache\felix\scr\impl\BundleComponentActivatorTest.java",1,187,107
+File,"felix\src\test\java\org\apache\felix\scr\impl\ComponentRegistryKeyTest.java",1,72,33
+File,"felix\src\test\java\org\apache\felix\scr\impl\MockBundle.java",1,207,125
+File,"felix\src\test\java\org\apache\felix\scr\impl\MockLogger.java",1,58,27
+File,"felix\src\test\java\org\apache\felix\scr\impl\config\ConfigurationSupportTest.java",1,31,9
+File,"felix\src\test\java\org\apache\felix\scr\impl\config\ConfiguredComponentHolderTest.java",1,259,162
+File,"felix\src\test\java\org\apache\felix\scr\impl\helper\ActivateMethodTest.java",1,339,192
+File,"felix\src\test\java\org\apache\felix\scr\impl\helper\BindMethodTest.java",1,443,334
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\AbstractComponentManagerTest.java",1,54,31
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\RegistrationManagerTest.java",2,145,99
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\components2\T2.java",2,211,163
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\components\FakeService.java",0,25,4
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\components\SuperFakeService.java",0,24,4
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\components\T1.java",2,385,311
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\components\T1a.java",0,27,4
+File,"felix\src\test\java\org\apache\felix\scr\impl\manager\components\T3.java",0,30,5
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\ComponentMetadataTest.java",1,990,751
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\XmlHandlerTest.java",1,479,356
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\instances2\Level2Object.java",1,65,31
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\instances\AcceptMethod.java",1,71,32
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\instances\BaseObject.java",1,107,57
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\instances\Level1Object.java",1,41,14
+File,"felix\src\test\java\org\apache\felix\scr\impl\metadata\instances\Level3Object.java",1,49,19
+File,"felix\src\test\java\org\apache\felix\scr\integration\ActivateSignatureTest.java",2,77,36
+File,"felix\src\test\java\org\apache\felix\scr\integration\CircularFactoryTest.java",2,58,28
+File,"felix\src\test\java\org\apache\felix\scr\integration\CircularReferenceTest.java",1,316,221
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentActivationTest.java",1,357,215
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentConcurrencyTest.java",2,79,55
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentConfigurationPidTest.java",1,113,67
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentConfigurationTest.java",1,700,480
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentDisposeTest.java",2,162,105
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentFactoryTest.java",3,671,480
+File,"felix\src\test\java\org\apache\felix\scr\integration\ComponentTestBase.java",2,944,776
+File,"felix\src\test\java\org\apache\felix\scr\integration\ConfigurationChangeTest.java",1,341,263
+File,"felix\src\test\java\org\apache\felix\scr\integration\ConfigurationComponentFactoryTest.java",12,225,153
+File,"felix\src\test\java\org\apache\felix\scr\integration\Felix3680Test.java",2,85,51
+File,"felix\src\test\java\org\apache\felix\scr\integration\Felix3680_2Test.java",3,88,53
+File,"felix\src\test\java\org\apache\felix\scr\integration\Felix4188Test.java",1,146,100
+File,"felix\src\test\java\org\apache\felix\scr\integration\LocationTest.java",2,238,159
+File,"felix\src\test\java\org\apache\felix\scr\integration\MutablePropertiesTest.java",1,199,132
+File,"felix\src\test\java\org\apache\felix\scr\integration\ServiceBindGreedyTest.java",1,1265,897
+File,"felix\src\test\java\org\apache\felix\scr\integration\ServiceBindTest.java",1,1265,897
+File,"felix\src\test\java\org\apache\felix\scr\integration\ServiceChangedTest.java",1,633,455
+File,"felix\src\test\java\org\apache\felix\scr\integration\ServiceComponentTest.java",1,233,145
+File,"felix\src\test\java\org\apache\felix\scr\integration\TargetedPIDTest.java",1,178,124
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\ActivatorComponent.java",2,91,54
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\Felix4188Component.java",1,44,20
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\MutatingService.java",0,29,6
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\MutatingServiceImpl.java",1,92,57
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\SimpleComponent.java",1,180,112
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\SimpleComponent2.java",1,76,38
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\SimpleService.java",0,26,5
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\SimpleService2.java",0,26,5
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\SimpleService2Impl.java",1,133,84
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\SimpleServiceImpl.java",1,141,92
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\AbstractActivateSignatureTestComponent.java",1,59,26
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Package_BundleContext.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Package_ComponentContext.java",1,32,9
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Package_Map.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Private_BundleContext.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Private_ComponentContext.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Private_Map.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Protected_BundleContext.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Protected_ComponentContext.java",1,32,9
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Protected_Map.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Public_BundleContext.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Public_ComponentContext.java",1,32,9
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\activatesignature\Signature_Public_Map.java",1,33,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\circularFactory\FactoryClient.java",1,50,19
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\circularFactory\FactoryInstance.java",0,24,4
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\circular\A.java",1,58,25
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\circular\B.java",1,58,25
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\concurrency\A.java",1,22,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\concurrency\AFactory.java",2,60,38
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\concurrency\B.java",1,18,7
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\concurrency\C.java",0,16,4
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\concurrency\CFactory.java",2,59,42
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\A.java",1,46,22
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\B.java",1,31,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\C.java",1,30,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\D.java",1,30,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\E.java",1,30,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\F.java",1,34,13
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\G.java",1,34,13
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\H.java",1,34,13
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\I.java",1,34,13
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\J.java",1,34,13
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\K.java",1,30,10
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680\Main.java",2,293,248
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\A.java",1,75,36
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\B.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\C.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\D.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\E.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\F.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\G.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\H.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\I.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\J.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\K.java",0,22,3
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix3680_2\Main.java",2,341,278
+File,"felix\src\test\java\org\apache\felix\scr\integration\components\felix4188\Felix4188Component.java",1,46,22
+File,"felix\src\test\resources\components_activate_10.xml",0,39,23
+File,"felix\src\test\resources\components_activate_11.xml",0,26,8
+File,"felix\src\test\resources\components_all_elements_10.xml",0,96,46
+File,"felix\src\test\resources\components_anonymous_10.xml",0,24,6
+File,"felix\src\test\resources\components_anonymous_11.xml",0,24,6
+File,"felix\src\test\resources\components_duplicate_implementation_10.xml",0,26,8
+File,"felix\src\test\resources\components_duplicate_implementation_11.xml",0,26,8
+File,"felix\src\test\resources\components_duplicate_service_10.xml",0,31,13
+File,"felix\src\test\resources\components_duplicate_service_11.xml",0,31,13
+File,"felix\src\test\resources\components_no_namespace.xml",0,22,4
+File,"felix\src\test\resources\components_properties_11.xml",0,26,8
+File,"felix\src\test\resources\integration_test_FELIX_3680.xml",0,155,134
+File,"felix\src\test\resources\integration_test_FELIX_3880_2.xml",0,65,54
+File,"felix\src\test\resources\integration_test_FELIX_4188.xml",0,13,3
+File,"felix\src\test\resources\integration_test_FELIX_4188_1.xml",0,17,7
+File,"felix\src\test\resources\integration_test_FELIX_4188_2.xml",0,17,7
+File,"felix\src\test\resources\integration_test_activation_components.xml",0,233,179
+File,"felix\src\test\resources\integration_test_circular.xml",0,302,267
+File,"felix\src\test\resources\integration_test_circularFactory.xml",0,55,33
+File,"felix\src\test\resources\integration_test_component_concurrency.xml",0,64,50
+File,"felix\src\test\resources\integration_test_mutable_properties.xml",0,97,76
+File,"felix\src\test\resources\integration_test_signature_components.xml",0,69,39
+File,"felix\src\test\resources\integration_test_simple_components.xml",0,125,86
+File,"felix\src\test\resources\integration_test_simple_components_configuration_change.xml",0,293,250
+File,"felix\src\test\resources\integration_test_simple_components_configuration_pid.xml",0,31,10
+File,"felix\src\test\resources\integration_test_simple_components_location.xml",0,31,10
+File,"felix\src\test\resources\integration_test_simple_components_service_binding.xml",0,294,254
+File,"felix\src\test\resources\integration_test_simple_components_service_binding_greedy.xml",0,313,273
+File,"felix\src\test\resources\integration_test_simple_factory_components.xml",0,97,66
+File,"felix\src\test\resources\reference_anonymous_10.xml",0,26,8
+File,"felix\src\test\resources\reference_anonymous_11.xml",0,26,8
+Package,"org",0,0,0
+Package,"org.apache",0,0,0
+Package,"org.apache.felix",0,0,0
+Package,"org.apache.felix.scr",0,683,79
+Public Interface,"org.apache.felix.scr.Component",0,366,39
+Abstract Method,"org.apache.felix.scr.Component.disable",,9,1
+Abstract Method,"org.apache.felix.scr.Component.enable",,9,1
+Abstract Method,"org.apache.felix.scr.Component.getActivate",,11,1
+Abstract Method,"org.apache.felix.scr.Component.getBundle",,4,1
+Abstract Method,"org.apache.felix.scr.Component.getClassName",,6,1
+Abstract Method,"org.apache.felix.scr.Component.getComponentInstance",,8,1
+Abstract Method,"org.apache.felix.scr.Component.getConfigurationPid",,21,1
+Abstract Method,"org.apache.felix.scr.Component.getConfigurationPolicy",,25,1
+Abstract Method,"org.apache.felix.scr.Component.getDeactivate",,11,1
+Abstract Method,"org.apache.felix.scr.Component.getFactory",,7,1
+Abstract Method,"org.apache.felix.scr.Component.getId",,7,1
+Abstract Method,"org.apache.felix.scr.Component.getModified",,11,1
+Abstract Method,"org.apache.felix.scr.Component.getName",,6,1
+Abstract Method,"org.apache.felix.scr.Component.getProperties",,7,1
+Abstract Method,"org.apache.felix.scr.Component.getReferences",,6,1
+Abstract Method,"org.apache.felix.scr.Component.getServices",,7,1
+Abstract Method,"org.apache.felix.scr.Component.getState",,5,1
+Abstract Method,"org.apache.felix.scr.Component.isActivateDeclared",,11,1
+Abstract Method,"org.apache.felix.scr.Component.isConfigurationPidDeclared",,9,1
+Abstract Method,"org.apache.felix.scr.Component.isDeactivateDeclared",,11,1
+Abstract Method,"org.apache.felix.scr.Component.isDefaultEnabled",,6,1
+Abstract Method,"org.apache.felix.scr.Component.isImmediate",,6,1
+Abstract Method,"org.apache.felix.scr.Component.isServiceFactory",,7,1
+Public Interface,"org.apache.felix.scr.Reference",0,119,17
+Abstract Method,"org.apache.felix.scr.Reference.getBindMethodName",,7,1
+Abstract Method,"org.apache.felix.scr.Reference.getBoundServiceReferences",,5,1
+Abstract Method,"org.apache.felix.scr.Reference.getName",,5,1
+Abstract Method,"org.apache.felix.scr.Reference.getServiceName",,6,1
+Abstract Method,"org.apache.felix.scr.Reference.getServiceReferences",,5,1
+Abstract Method,"org.apache.felix.scr.Reference.getTarget",,10,1
+Abstract Method,"org.apache.felix.scr.Reference.getUnbindMethodName",,7,1
+Abstract Method,"org.apache.felix.scr.Reference.getUpdatedMethodName",,12,1
+Abstract Method,"org.apache.felix.scr.Reference.isMultiple",,7,1
+Abstract Method,"org.apache.felix.scr.Reference.isOptional",,7,1
+Abstract Method,"org.apache.felix.scr.Reference.isReluctant",,9,1
+Abstract Method,"org.apache.felix.scr.Reference.isSatisfied",,6,1
+Abstract Method,"org.apache.felix.scr.Reference.isStatic",,7,1
+Public Interface,"org.apache.felix.scr.ScrInfo",0,25,5
+Abstract Method,"org.apache.felix.scr.ScrInfo.config",,5,1
+Abstract Method,"org.apache.felix.scr.ScrInfo.info",,8,1
+Abstract Method,"org.apache.felix.scr.ScrInfo.list",,7,1
+Public Interface,"org.apache.felix.scr.ScrService",0,60,7
+Abstract Method,"org.apache.felix.scr.ScrService.getComponent",,11,1
+Abstract Method,"org.apache.felix.scr.ScrService.getComponents",,16,1
+Abstract Method,"org.apache.felix.scr.ScrService.getComponents",,9,1
+Abstract Method,"org.apache.felix.scr.ScrService.getComponents",,13,1
+Package,"org.apache.felix.scr.component",0,55,7
+Public Interface,"org.apache.felix.scr.component.ExtComponentContext",0,24,4
+Abstract Method,"org.apache.felix.scr.component.ExtComponentContext.setServiceProperties",,19,1
+Package,"org.apache.felix.scr.impl",2,3650,2285
+Public Class,"org.apache.felix.scr.impl.Activator",2,381,248
+Public Constructor,"org.apache.felix.scr.impl.Activator.Activator",,3,3
+Protected Method,"org.apache.felix.scr.impl.Activator.debug",,3,3
+Private Method,"org.apache.felix.scr.impl.Activator.disposeComponents",,28,23
+Protected Method,"org.apache.felix.scr.impl.Activator.doCreateExtension",,15,14
+Anonymous Class,"org.apache.felix.scr.impl.Activator.doCreateExtension.(Anon_1)",1,10,9
+Public Method,"org.apache.felix.scr.impl.Activator.doCreateExtension.(Anon_1).destroy",,4,4
+Public Method,"org.apache.felix.scr.impl.Activator.doCreateExtension.(Anon_1).start",,4,4
+Protected Method,"org.apache.felix.scr.impl.Activator.doStart",,28,16
+Public Method,"org.apache.felix.scr.impl.Activator.doStop",,37,21
+Protected Method,"org.apache.felix.scr.impl.Activator.error",,3,3
+Public Static Method,"org.apache.felix.scr.impl.Activator.getPackageAdmin",,16,15
+Public Static Method,"org.apache.felix.scr.impl.Activator.isLogEnabled",,7,4
+Private Method,"org.apache.felix.scr.impl.Activator.loadComponents",,90,64
+Public Static Method,"org.apache.felix.scr.impl.Activator.log",,8,8
+Public Static Method,"org.apache.felix.scr.impl.Activator.log",,70,51
+Public Method,"org.apache.felix.scr.impl.Activator.start",,12,5
+Protected Method,"org.apache.felix.scr.impl.Activator.warn",,3,3
+Public Class,"org.apache.felix.scr.impl.BundleComponentActivator",3,581,351
+Constructor,"org.apache.felix.scr.impl.BundleComponentActivator.BundleComponentActivator",,39,19
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.disableComponent",,30,20
+Method,"org.apache.felix.scr.impl.BundleComponentActivator.dispose",,45,35
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.enableComponent",,30,20
+Static Method,"org.apache.felix.scr.impl.BundleComponentActivator.findDescriptors",,44,31
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.getBundleContext",,9,4
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.getConfiguration",,4,4
+Private Method,"org.apache.felix.scr.impl.BundleComponentActivator.getSelectedComponents",,32,13
+Private Method,"org.apache.felix.scr.impl.BundleComponentActivator.initialize",,57,37
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.isActive",,11,4
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.isLogEnabled",,7,4
+Private Method,"org.apache.felix.scr.impl.BundleComponentActivator.loadDescriptor",,87,63
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.log",,21,8
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.log",,47,34
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.missingServicePresent",,4,4
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.registerComponentId",,3,3
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.registerMissingDependency",,4,4
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.schedule",,38,31
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivator.unregisterComponentId",,3,3
+Public Class,"org.apache.felix.scr.impl.BundleComponentActivatorTest",1,154,97
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.findDescriptors_withWildcardLocation",,25,23
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withBlankLocation",,9,6
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withEmptyLocation",,9,6
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withNonWildcardLocation",,24,16
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withNullBundle",,9,6
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withNullLocation",,9,6
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withWildcardLocation01",,10,5
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withWildcardLocation02",,10,5
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withWildcardLocation_emptyEnum",,18,11
+Public Method,"org.apache.felix.scr.impl.BundleComponentActivatorTest.test_findDescriptors_withWildcardLocation_nullEnum",,18,11
+Class,"org.apache.felix.scr.impl.ComponentActorThread",2,128,91
+Anonymous Class,"org.apache.felix.scr.impl.ComponentActorThread.(Anon_1)",1,10,8
+Public Method,"org.apache.felix.scr.impl.ComponentActorThread.(Anon_1).run",,3,3
+Public Method,"org.apache.felix.scr.impl.ComponentActorThread.(Anon_1).toString",,4,4
+Constructor,"org.apache.felix.scr.impl.ComponentActorThread.ComponentActorThread",,4,4
+Public Method,"org.apache.felix.scr.impl.ComponentActorThread.run",,51,44
+Method,"org.apache.felix.scr.impl.ComponentActorThread.schedule",,14,10
+Method,"org.apache.felix.scr.impl.ComponentActorThread.terminate",,19,19
+Public Class,"org.apache.felix.scr.impl.ComponentRegistry",2,671,395
+Protected Constructor,"org.apache.felix.scr.impl.ComponentRegistry.ComponentRegistry",,31,23
+Private Static Class,"org.apache.felix.scr.impl.ComponentRegistry.Entry",1,21,18
+Private Constructor,"org.apache.felix.scr.impl.ComponentRegistry.Entry.Entry",,5,5
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.Entry.getDm",,4,4
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.Entry.getTrackingCount",,4,4
+Method,"org.apache.felix.scr.impl.ComponentRegistry.checkComponentName",,58,37
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.createComponentHolder",,29,20
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.dispose",,16,14
+Private Method,"org.apache.felix.scr.impl.ComponentRegistry.disposeConfigurationSupport",,8,8
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponent",,7,7
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponentHolder",,11,7
+Private Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponentHolders",,13,7
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponentHoldersByPid",,27,20
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponents",,24,21
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponents",,28,25
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.getComponents",,16,15
+Private Method,"org.apache.felix.scr.impl.ComponentRegistry.getOrCreateConfigurationSupport",,8,8
+Static Method,"org.apache.felix.scr.impl.ComponentRegistry.isBundleActive",,41,15
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.missingServicePresent",,25,22
+Anonymous Class,"org.apache.felix.scr.impl.ComponentRegistry.missingServicePresent.(Anon_1)",1,15,13
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.missingServicePresent.(Anon_1).run",,7,7
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.missingServicePresent.(Anon_1).toString",,4,4
+Method,"org.apache.felix.scr.impl.ComponentRegistry.registerComponentHolder",,53,31
+Method,"org.apache.felix.scr.impl.ComponentRegistry.registerComponentId",,21,10
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.registerMissingDependency",,15,14
+Public Method,"org.apache.felix.scr.impl.ComponentRegistry.serviceChanged",,33,24
+Method,"org.apache.felix.scr.impl.ComponentRegistry.unregisterComponentHolder",,10,4
+Method,"org.apache.felix.scr.impl.ComponentRegistry.unregisterComponentHolder",,33,26
+Method,"org.apache.felix.scr.impl.ComponentRegistry.unregisterComponentId",,15,7
+Class,"org.apache.felix.scr.impl.ComponentRegistryKey",1,59,37
+Constructor,"org.apache.felix.scr.impl.ComponentRegistryKey.ComponentRegistryKey",,5,5
+Public Method,"org.apache.felix.scr.impl.ComponentRegistryKey.equals",,15,13
+Public Method,"org.apache.felix.scr.impl.ComponentRegistryKey.getBundleId",,4,4
+Public Method,"org.apache.felix.scr.impl.ComponentRegistryKey.getComponentName",,4,4
+Public Method,"org.apache.felix.scr.impl.ComponentRegistryKey.hashCode",,6,6
+Public Class,"org.apache.felix.scr.impl.ComponentRegistryKeyTest",1,48,31
+Private Static Method,"org.apache.felix.scr.impl.ComponentRegistryKeyTest.key",,11,10
+Anonymous Class,"org.apache.felix.scr.impl.ComponentRegistryKeyTest.key.(Anon_1)",1,6,5
+Public Method,"org.apache.felix.scr.impl.ComponentRegistryKeyTest.key.(Anon_1).getBundleId",,4,4
+Public Method,"org.apache.felix.scr.impl.ComponentRegistryKeyTest.test_globally_unique_key",,21,12
+Public Class,"org.apache.felix.scr.impl.MockBundle",1,171,112
+Public Generic Method,"org.apache.felix.scr.impl.MockBundle.adapt",,4,4
+TypeVariable,"org.apache.felix.scr.impl.MockBundle.adapt.A",0,0,0
+Public Method,"org.apache.felix.scr.impl.MockBundle.compareTo",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.findEntries",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getBundleContext",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getBundleId",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getDataFile",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getEntry",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getEntryPaths",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getHeaders",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getHeaders",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getLastModified",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getLocation",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getRegisteredServices",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getResource",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getResources",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getServicesInUse",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getSignerCertificates",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getState",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getSymbolicName",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.getVersion",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.hasPermission",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.loadClass",,4,4
+Public Method,"org.apache.felix.scr.impl.MockBundle.start",,4,3
+Public Method,"org.apache.felix.scr.impl.MockBundle.start",,4,3
+Public Method,"org.apache.felix.scr.impl.MockBundle.stop",,4,3
+Public Method,"org.apache.felix.scr.impl.MockBundle.stop",,4,3
+Public Method,"org.apache.felix.scr.impl.MockBundle.uninstall",,4,3
+Public Method,"org.apache.felix.scr.impl.MockBundle.update",,4,3
+Public Method,"org.apache.felix.scr.impl.MockBundle.update",,4,3
+Public Class,"org.apache.felix.scr.impl.MockLogger",1,30,22
+Public Method,"org.apache.felix.scr.impl.MockLogger.isLogEnabled",,4,4
+Public Method,"org.apache.felix.scr.impl.MockLogger.log",,7,7
+Public Method,"org.apache.felix.scr.impl.MockLogger.log",,4,4
+Public Method,"org.apache.felix.scr.impl.MockLogger.messageContains",,4,4
+Public Class,"org.apache.felix.scr.impl.ScrCommand",9,506,432
+Private Constructor,"org.apache.felix.scr.impl.ScrCommand.ScrCommand",,6,6
+Method,"org.apache.felix.scr.impl.ScrCommand.change",,47,45
+Public Method,"org.apache.felix.scr.impl.ScrCommand.config",,13,13
+Private Method,"org.apache.felix.scr.impl.ScrCommand.getComponentFromArg",,50,47
+Public Method,"org.apache.felix.scr.impl.ScrCommand.info",,176,162
+Anonymous Class,"org.apache.felix.scr.impl.ScrCommand.info.(Anon_2)",2,12,11
+Public Method,"org.apache.felix.scr.impl.ScrCommand.info.(Anon_2).compare",,10,10
+Public Method,"org.apache.felix.scr.impl.ScrCommand.list",,72,65
+Anonymous Class,"org.apache.felix.scr.impl.ScrCommand.list.(Anon_1)",1,6,5
+Public Method,"org.apache.felix.scr.impl.ScrCommand.list.(Anon_1).compare",,4,4
+Static Method,"org.apache.felix.scr.impl.ScrCommand.register",,52,35
+Private Method,"org.apache.felix.scr.impl.ScrCommand.toStateString",,32,31
+Public Method,"org.apache.felix.scr.impl.ScrCommand.update",,21,21
+Class,"org.apache.felix.scr.impl.ScrGogoCommand",1,106,73
+Public Constructor,"org.apache.felix.scr.impl.ScrGogoCommand.ScrGogoCommand",,4,4
+Public Method,"org.apache.felix.scr.impl.ScrGogoCommand.config",,4,4
+Public Method,"org.apache.felix.scr.impl.ScrGogoCommand.disable",,11,11
+Public Method,"org.apache.felix.scr.impl.ScrGogoCommand.enable",,11,11
+Public Method,"org.apache.felix.scr.impl.ScrGogoCommand.info",,11,11
+Public Method,"org.apache.felix.scr.impl.ScrGogoCommand.list",,11,11
+Public Method,"org.apache.felix.scr.impl.ScrGogoCommand.list",,11,11
+Class,"org.apache.felix.scr.impl.ScrShellCommand",3,143,125
+Constructor,"org.apache.felix.scr.impl.ScrShellCommand.ScrShellCommand",,4,4
+Public Method,"org.apache.felix.scr.impl.ScrShellCommand.execute",,50,45
+Public Method,"org.apache.felix.scr.impl.ScrShellCommand.getName",,4,4
+Public Method,"org.apache.felix.scr.impl.ScrShellCommand.getShortDescription",,4,4
+Public Method,"org.apache.felix.scr.impl.ScrShellCommand.getUsage",,4,4
+Private Method,"org.apache.felix.scr.impl.ScrShellCommand.help",,54,54
+Public Class,"org.apache.felix.scr.impl.TargetedPID",2,238,124
+Public Constructor,"org.apache.felix.scr.impl.TargetedPID.TargetedPID",,47,45
+Public Method,"org.apache.felix.scr.impl.TargetedPID.bindsStronger",,16,4
+Public Method,"org.apache.felix.scr.impl.TargetedPID.equals",,20,16
+Public Static Method,"org.apache.felix.scr.impl.TargetedPID.getBundleVersion",,18,6
+Public Method,"org.apache.felix.scr.impl.TargetedPID.getRawPid",,12,4
+Public Method,"org.apache.felix.scr.impl.TargetedPID.getServicePid",,8,4
+Public Method,"org.apache.felix.scr.impl.TargetedPID.hashCode",,4,4
+Public Method,"org.apache.felix.scr.impl.TargetedPID.matchesTarget",,56,25
+Public Method,"org.apache.felix.scr.impl.TargetedPID.toString",,4,4
+Package,"org.apache.felix.scr.impl.config",2,2309,1440
+Public Interface,"org.apache.felix.scr.impl.config.ComponentHolder",0,89,14
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.configurationDeleted",,7,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.configurationUpdated",,11,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.disableComponents",,7,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.disposeComponents",,5,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.disposed",,5,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.enableComponents",,8,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.getActivator",,5,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.getChangeCount",,6,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.getComponentMetadata",,5,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.getComponents",,4,1
+Abstract Method,"org.apache.felix.scr.impl.config.ComponentHolder.getConfigurationTargetedPID",,6,1
+Public Generic Class,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder",2,538,333
+Public Constructor,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.ConfigurableComponentHolder",,9,9
+TypeVariable,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.S",0,0,0
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationDeleted",,90,46
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.configurationUpdated",,103,73
+Protected Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.createComponentManager",,21,17
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.disableComponents",,18,17
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.disposeComponents",,21,18
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.disposed",,34,28
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.enableComponents",,17,17
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.equals",,24,10
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getActivator",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getChangeCount",,7,6
+Private Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getComponentManagers",,22,14
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getComponentMetadata",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getComponents",,8,8
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getConfigurationTargetedPID",,20,19
+Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.getName",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.hashCode",,9,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.isLogEnabled",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.log",,8,8
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.log",,8,8
+Public Method,"org.apache.felix.scr.impl.config.ConfigurableComponentHolder.toString",,4,4
+Public Class,"org.apache.felix.scr.impl.config.ConfigurationSupport",5,603,474
+Private Interface,"org.apache.felix.scr.impl.config.ConfigurationSupport.ChangeCount",0,3,3
+Abstract Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.ChangeCount.getChangeCount",,1,1
+Private Static Class,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationInfo",1,34,28
+Public Constructor,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationInfo.ConfigurationInfo",,6,6
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationInfo.getBundleLocation",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationInfo.getChangeCount",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationInfo.getProps",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationInfo.setChangeCount",,4,4
+Public Constructor,"org.apache.felix.scr.impl.config.ConfigurationSupport.ConfigurationSupport",,11,9
+Private Static Class,"org.apache.felix.scr.impl.config.ConfigurationSupport.R4ChangeCount",2,8,6
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.R4ChangeCount.getChangeCount",,4,4
+Private Static Class,"org.apache.felix.scr.impl.config.ConfigurationSupport.R5ChangeCount",1,7,6
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.R5ChangeCount.getChangeCount",,4,4
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.checkBundleLocation",,9,9
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.checkBundleLocation",,13,12
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.configurationEvent",,153,112
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.configureComponentHolder",,87,81
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.configureComponentHolders",,17,17
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.dispose",,8,8
+Static Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.escape",,9,4
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.findConfigurations",,18,16
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.findFactoryConfigurations",,40,31
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.findSingletonConfiguration",,34,24
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.getConfiguration",,13,12
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.getConfigurationInfo",,57,46
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.getEventType",,15,14
+Private Method,"org.apache.felix.scr.impl.config.ConfigurationSupport.getTargetedPidFilter",,10,10
+Public Class,"org.apache.felix.scr.impl.config.ConfigurationSupportTest",1,9,7
+Public Method,"org.apache.felix.scr.impl.config.ConfigurationSupportTest.testEscape",,4,4
+Public Class,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest",1,223,150
+Private Static Class,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.MockImmediateComponentManager",1,29,20
+Public Constructor,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.MockImmediateComponentManager.MockImmediateComponentManager",,4,4
+Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.MockImmediateComponentManager.getConfiguration",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.MockImmediateComponentManager.hasConfiguration",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.MockImmediateComponentManager.reconfigure",,4,4
+Private Static Class,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.TestingConfiguredComponentHolder",1,13,11
+Constructor,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.TestingConfiguredComponentHolder.TestingConfiguredComponentHolder",,4,4
+Protected Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.TestingConfiguredComponentHolder.createComponentManager",,4,4
+Private Static Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.createComponentMetadata",,7,6
+Private Static Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.getComponentManagers",,16,16
+Private Static Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.getSingleManager",,14,14
+Public Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.test_factory",,72,46
+Public Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.test_none",,15,10
+Public Method,"org.apache.felix.scr.impl.config.ConfiguredComponentHolderTest.test_singleton",,41,24
+Public Class,"org.apache.felix.scr.impl.config.ScrConfiguration",1,259,174
+Public Constructor,"org.apache.felix.scr.impl.config.ScrConfiguration.ScrConfiguration",,5,4
+Method,"org.apache.felix.scr.impl.config.ScrConfiguration.configure",,35,35
+Private Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getDefaultFactoryEnabled",,4,4
+Private Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getDefaultInfoAsService",,4,4
+Private Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getDefaultKeepInstances",,4,4
+Private Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getDefaultLockTimeout",,9,9
+Private Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getDefaultLogLevel",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getLogLevel",,8,4
+Private Method,"org.apache.felix.scr.impl.config.ScrConfiguration.getLogLevel",,52,43
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.infoAsService",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.isFactoryEnabled",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.keepInstances",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.lockTimeout",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.setScrCommand",,5,5
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.start",,14,10
+Public Method,"org.apache.felix.scr.impl.config.ScrConfiguration.stop",,8,7
+Public Class,"org.apache.felix.scr.impl.config.ScrManagedService",1,32,16
+Public Constructor,"org.apache.felix.scr.impl.config.ScrManagedService.ScrManagedService",,4,4
+Protected Method,"org.apache.felix.scr.impl.config.ScrManagedService.getScrConfiguration",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedService.updated",,4,4
+Class,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider",1,212,152
+Private Static Class,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl",1,87,65
+Constructor,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.AttributeDefinitionImpl",,5,5
+Constructor,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.AttributeDefinitionImpl",,13,13
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getCardinality",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getDefaultValue",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getDescription",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getID",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getName",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getOptionLabels",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getOptionValues",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.getType",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.AttributeDefinitionImpl.validate",,4,4
+Private Constructor,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.ScrManagedServiceMetaTypeProvider",,4,4
+Static Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.create",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getLocales",,7,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition",,87,71
+Anonymous Class,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition.(Anon_1)",1,30,24
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition.(Anon_1).getAttributeDefinitions",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition.(Anon_1).getDescription",,5,5
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition.(Anon_1).getID",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition.(Anon_1).getIcon",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceMetaTypeProvider.getObjectClassDefinition.(Anon_1).getName",,4,4
+Public Class,"org.apache.felix.scr.impl.config.ScrManagedServiceServiceFactory",1,46,28
+Public Constructor,"org.apache.felix.scr.impl.config.ScrManagedServiceServiceFactory.ScrManagedServiceServiceFactory",,4,4
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceServiceFactory.getService",,18,17
+Public Method,"org.apache.felix.scr.impl.config.ScrManagedServiceServiceFactory.ungetService",,4,3
+Package,"org.apache.felix.scr.impl.helper",1,3020,1746
+Public Class,"org.apache.felix.scr.impl.helper.ActivateMethod",3,246,174
+Public Constructor,"org.apache.felix.scr.impl.helper.ActivateMethod.ActivateMethod",,5,5
+Public Static Class,"org.apache.felix.scr.impl.helper.ActivateMethod.ActivatorParameter",1,23,18
+Public Constructor,"org.apache.felix.scr.impl.helper.ActivateMethod.ActivatorParameter.ActivatorParameter",,5,5
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethod.ActivatorParameter.getComponentContext",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethod.ActivatorParameter.getReason",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.ActivateMethod.acceptEmpty",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.ActivateMethod.doFindMethod",,63,51
+Protected Method,"org.apache.felix.scr.impl.helper.ActivateMethod.getAcceptedParameterTypes",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.ActivateMethod.getMethodNamePrefix",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.ActivateMethod.getParameters",,28,26
+Private Method,"org.apache.felix.scr.impl.helper.ActivateMethod.getSingleParameterMethod",,51,25
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethod.invoke",,8,8
+Private Method,"org.apache.felix.scr.impl.helper.ActivateMethod.isSuitable",,29,22
+Public Class,"org.apache.felix.scr.impl.helper.ActivateMethodTest",1,301,178
+Private Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.assertMethod",,7,7
+Private Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.checkMethod",,12,4
+Private Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.checkMethod",,26,17
+Anonymous Class,"org.apache.felix.scr.impl.helper.ActivateMethodTest.checkMethod.(Anon_1)",1,5,5
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.checkMethod.(Anon_1).isDS11",,4,4
+Private Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.ensureMethodNotFoundMethod",,24,15
+Anonymous Class,"org.apache.felix.scr.impl.helper.ActivateMethodTest.ensureMethodNotFoundMethod.(Anon_2)",1,5,5
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.ensureMethodNotFoundMethod.(Anon_2).isDS11",,4,4
+Private Static Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.get",,21,19
+Protected Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.setUp",,10,8
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_accept",,38,23
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_getPackage",,7,6
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_package_activate_comp_bundle",,11,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_precedence",,18,9
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_private_activate_comp_map",,9,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_private_activate_level1_bundle",,9,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_private_no_arg",,10,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_protected_activate_comp",,9,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_protected_activate_level1_map",,9,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_public_activate_collision",,11,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_suitable_method_selection",,13,7
+Public Method,"org.apache.felix.scr.impl.helper.ActivateMethodTest.test_unsuitable_method_selection",,9,5
+Abstract Class,"org.apache.felix.scr.impl.helper.BaseMethod",2,598,371
+Protected Constructor,"org.apache.felix.scr.impl.helper.BaseMethod.BaseMethod",,5,5
+Protected Constructor,"org.apache.felix.scr.impl.helper.BaseMethod.BaseMethod",,17,17
+Private Static Class,"org.apache.felix.scr.impl.helper.BaseMethod.NotApplicable",1,17,12
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotApplicable.invoke",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotApplicable.methodExists",,4,4
+Private Static Class,"org.apache.felix.scr.impl.helper.BaseMethod.NotFound",1,21,14
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotFound.invoke",,9,6
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotFound.methodExists",,4,4
+Private Static Class,"org.apache.felix.scr.impl.helper.BaseMethod.NotResolved",1,40,31
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotResolved.invoke",,6,6
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotResolved.methodExists",,5,5
+Private Method,"org.apache.felix.scr.impl.helper.BaseMethod.NotResolved.resolve",,19,16
+Private Static Class,"org.apache.felix.scr.impl.helper.BaseMethod.Resolved",1,17,13
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.Resolved.invoke",,5,5
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.Resolved.methodExists",,4,4
+Private Interface,"org.apache.felix.scr.impl.helper.BaseMethod.State",0,9,6
+Abstract Method,"org.apache.felix.scr.impl.helper.BaseMethod.State.invoke",,2,2
+Abstract Method,"org.apache.felix.scr.impl.helper.BaseMethod.State.methodExists",,1,1
+Static Method,"org.apache.felix.scr.impl.helper.BaseMethod.accept",,69,32
+Protected Abstract Method,"org.apache.felix.scr.impl.helper.BaseMethod.doFindMethod",,2,2
+Private Method,"org.apache.felix.scr.impl.helper.BaseMethod.findMethod",,68,41
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.getComponentClass",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.getMethod",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.getMethod",,87,50
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.getMethodName",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.getMethodNamePrefix",,4,4
+Public Static Method,"org.apache.felix.scr.impl.helper.BaseMethod.getPackageName",,10,6
+Protected Abstract Method,"org.apache.felix.scr.impl.helper.BaseMethod.getParameters",,10,1
+Method,"org.apache.felix.scr.impl.helper.BaseMethod.getState",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.invoke",,36,14
+Private Method,"org.apache.felix.scr.impl.helper.BaseMethod.invokeMethod",,47,42
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.isDS11",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.isDS12Felix",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.methodExists",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.BaseMethod.returnValue",,5,4
+Private Static Method,"org.apache.felix.scr.impl.helper.BaseMethod.setAccessible",,11,11
+Anonymous Class,"org.apache.felix.scr.impl.helper.BaseMethod.setAccessible.(Anon_1)",1,6,6
+Public Method,"org.apache.felix.scr.impl.helper.BaseMethod.setAccessible.(Anon_1).run",,5,5
+Method,"org.apache.felix.scr.impl.helper.BaseMethod.setMethod",,25,23
+Public Class,"org.apache.felix.scr.impl.helper.BindMethod",5,595,352
+Public Constructor,"org.apache.felix.scr.impl.helper.BindMethod.BindMethod",,6,6
+Public Interface,"org.apache.felix.scr.impl.helper.BindMethod.Service",0,9,5
+Abstract Method,"org.apache.felix.scr.impl.helper.BindMethod.Service.getInstance",,1,1
+Abstract Method,"org.apache.felix.scr.impl.helper.BindMethod.Service.getReference",,1,1
+Protected Method,"org.apache.felix.scr.impl.helper.BindMethod.doFindMethod",,159,110
+Protected Method,"org.apache.felix.scr.impl.helper.BindMethod.getMethodNamePrefix",,4,4
+Private Method,"org.apache.felix.scr.impl.helper.BindMethod.getParameterClass",,109,82
+Protected Method,"org.apache.felix.scr.impl.helper.BindMethod.getParameters",,17,17
+Public Method,"org.apache.felix.scr.impl.helper.BindMethod.getServiceObject",,25,23
+Private Method,"org.apache.felix.scr.impl.helper.BindMethod.getServiceObjectAssignableMethod",,93,50
+Private Method,"org.apache.felix.scr.impl.helper.BindMethod.getServiceObjectAssignableWithMapMethod",,56,27
+Private Method,"org.apache.felix.scr.impl.helper.BindMethod.getServiceObjectMethod",,25,6
+Private Method,"org.apache.felix.scr.impl.helper.BindMethod.getServiceObjectWithMapMethod",,27,7
+Private Method,"org.apache.felix.scr.impl.helper.BindMethod.getServiceReferenceMethod",,25,6
+Public Class,"org.apache.felix.scr.impl.helper.BindMethodTest",1,406,320
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.setUp",,16,14
+Private Method,"org.apache.felix.scr.impl.helper.BindMethodTest.testMethod",,16,16
+Anonymous Class,"org.apache.felix.scr.impl.helper.BindMethodTest.testMethod.(Anon_1)",1,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.testMethod.(Anon_1).isDS11",,3,3
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_Unexistent",,9,9
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT1",,11,11
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT1SI",,11,11
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT1SIMap",,11,11
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT1SR",,11,11
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT1SSI",,11,11
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT1SSIMap",,11,11
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT2",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT2SI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT2SIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT2SR",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT2SSI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_packageT2SSIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT1",,9,9
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT1SI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT1SIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT1SR",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT1SSI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT1SSIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT2",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT2SI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT2SIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT2SR",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT2SSI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_privateT2SSIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_protectedT1",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_protectedT1SI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_protectedT1SR",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_protectedT1SSI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_publicT1",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_publicT1SI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_publicT1SIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_publicT1SR",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_publicT1SSI",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_publicT1SSIMap",,7,7
+Public Method,"org.apache.felix.scr.impl.helper.BindMethodTest.test_suitable",,18,11
+Public Class,"org.apache.felix.scr.impl.helper.BindMethods",1,47,40
+Constructor,"org.apache.felix.scr.impl.helper.BindMethods.BindMethods",,22,22
+Public Method,"org.apache.felix.scr.impl.helper.BindMethods.getBind",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BindMethods.getUnbind",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.BindMethods.getUpdated",,4,4
+Public Class,"org.apache.felix.scr.impl.helper.ComponentMethods",1,55,43
+Public Method,"org.apache.felix.scr.impl.helper.ComponentMethods.getActivateMethod",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ComponentMethods.getBindMethods",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ComponentMethods.getDeactivateMethod",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ComponentMethods.getModifiedMethod",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ComponentMethods.initComponentMethods",,22,20
+Public Class,"org.apache.felix.scr.impl.helper.DeactivateMethod",1,26,18
+Public Constructor,"org.apache.felix.scr.impl.helper.DeactivateMethod.DeactivateMethod",,5,5
+Protected Method,"org.apache.felix.scr.impl.helper.DeactivateMethod.getAcceptedParameterTypes",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.DeactivateMethod.getMethodNamePrefix",,4,4
+Public Interface,"org.apache.felix.scr.impl.helper.Logger",0,41,6
+Abstract Method,"org.apache.felix.scr.impl.helper.Logger.isLogEnabled",,4,1
+Abstract Method,"org.apache.felix.scr.impl.helper.Logger.log",,15,1
+Abstract Method,"org.apache.felix.scr.impl.helper.Logger.log",,13,1
+Public Class,"org.apache.felix.scr.impl.helper.MethodResult",1,41,19
+Constructor,"org.apache.felix.scr.impl.helper.MethodResult.MethodResult",,5,5
+Public Method,"org.apache.felix.scr.impl.helper.MethodResult.getResult",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.MethodResult.hasResult",,4,4
+Public Class,"org.apache.felix.scr.impl.helper.ModifiedMethod",1,21,16
+Public Constructor,"org.apache.felix.scr.impl.helper.ModifiedMethod.ModifiedMethod",,5,5
+Protected Method,"org.apache.felix.scr.impl.helper.ModifiedMethod.acceptEmpty",,4,4
+Protected Method,"org.apache.felix.scr.impl.helper.ModifiedMethod.getMethodNamePrefix",,4,4
+Public Generic Class,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary",1,153,92
+Public Constructor,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.ReadOnlyDictionary",,20,16
+Public Constructor,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.ReadOnlyDictionary",,18,14
+TypeVariable,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.S",0,0,0
+TypeVariable,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.T",0,0,0
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.clear",,4,3
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.containsKey",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.containsValue",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.elements",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.entrySet",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.get",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.isEmpty",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.keySet",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.keys",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.put",,8,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.putAll",,4,3
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.remove",,8,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.size",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.toString",,4,4
+Public Method,"org.apache.felix.scr.impl.helper.ReadOnlyDictionary.values",,4,4
+Public Interface,"org.apache.felix.scr.impl.helper.SimpleLogger",0,8,6
+Abstract Method,"org.apache.felix.scr.impl.helper.SimpleLogger.isLogEnabled",,1,1
+Abstract Method,"org.apache.felix.scr.impl.helper.SimpleLogger.log",,1,1
+Abstract Method,"org.apache.felix.scr.impl.helper.SimpleLogger.log",,1,1
+Public Class,"org.apache.felix.scr.impl.helper.SuitableMethodNotAccessibleException",0,2,2
+Public Class,"org.apache.felix.scr.impl.helper.UnbindMethod",1,17,11
+Public Constructor,"org.apache.felix.scr.impl.helper.UnbindMethod.UnbindMethod",,5,5
+Protected Method,"org.apache.felix.scr.impl.helper.UnbindMethod.getMethodNamePrefix",,4,4
+Public Class,"org.apache.felix.scr.impl.helper.UpdatedMethod",1,17,11
+Public Constructor,"org.apache.felix.scr.impl.helper.UpdatedMethod.UpdatedMethod",,5,5
+Protected Method,"org.apache.felix.scr.impl.helper.UpdatedMethod.getMethodNamePrefix",,4,4
+Package,"org.apache.felix.scr.impl.manager",2,7991,5048
+Public Abstract Generic Class,"org.apache.felix.scr.impl.manager.AbstractComponentManager",2,1402,1036
+Anonymous Class,"org.apache.felix.scr.impl.manager.AbstractComponentManager.(Anon_3)",1,39,34
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.(Anon_3).getTimeout",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.(Anon_3).log",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.(Anon_3).register",,12,12
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.(Anon_3).reportTimeout",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.(Anon_3).unregister",,4,4
+Protected Constructor,"org.apache.felix.scr.impl.manager.AbstractComponentManager.AbstractComponentManager",,39,33
+Protected Constructor,"org.apache.felix.scr.impl.manager.AbstractComponentManager.AbstractComponentManager",,11,4
+TypeVariable,"org.apache.felix.scr.impl.manager.AbstractComponentManager.S",0,0,0
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.activateInternal",,75,61
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.clear",,8,7
+Protected Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.collectDependencies",,32,22
+Protected Static Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.copyTo",,18,4
+Protected Static Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.copyTo",,41,19
+Protected Abstract Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.createComponent",,9,1
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.deactivateDependencyManagers",,8,8
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.deactivateInternal",,36,26
+Protected Abstract Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.deleteComponent",,1,1
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disable",,10,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disable",,53,48
+Anonymous Class,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disable.(Anon_2)",1,20,17
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disable.(Anon_2).run",,11,11
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disable.(Anon_2).toString",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disableDependencyManagers",,9,9
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.disableInternal",,9,9
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.dispose",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.dispose",,13,4
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.doDeactivate",,33,33
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.doMissingWait",,12,12
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.dumpThreads",,12,12
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enable",,52,48
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enable",,14,4
+Anonymous Class,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enable.(Anon_1)",1,20,17
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enable.(Anon_1).run",,11,11
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enable.(Anon_1).toString",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enableInternal",,26,21
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.enableLatchWait",,37,30
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getActivate",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getActivator",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getBundle",,22,15
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getBundleContext",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getClassName",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getComponentMetadata",,7,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getComponentMethods",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getConfigurationPid",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getConfigurationPolicy",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getDeactivate",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getDependencyManager",,13,11
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getDependencyManagers",,8,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getFactory",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getId",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getLockTimeout",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getModified",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getName",,3,3
+Public Abstract Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getProperties",,1,1
+Protected Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getProvidedServices",,10,9
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getReferences",,10,9
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getReversedDependencyManagers",,10,6
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getService",,9,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getServiceInternal",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getServiceProperties",,10,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getServiceReference",,9,9
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getServiceRegistration",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getServices",,9,8
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getState",,24,24
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.getTrackingCount",,4,4
+Public Abstract Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.hasConfiguration",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.hasInstance",,1,1
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.hasServiceRegistrationPermissions",,29,27
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.initDependencyManagers",,33,32
+Abstract Generic Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.invokeBindMethod",,1,1
+TypeVariable,"org.apache.felix.scr.impl.manager.AbstractComponentManager.invokeBindMethod.T",0,0,0
+Abstract Generic Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.invokeUnbindMethod",,1,1
+TypeVariable,"org.apache.felix.scr.impl.manager.AbstractComponentManager.invokeUnbindMethod.T",0,0,0
+Abstract Generic Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.invokeUpdatedMethod",,1,1
+TypeVariable,"org.apache.felix.scr.impl.manager.AbstractComponentManager.invokeUpdatedMethod.T",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isActivateDeclared",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isActivatorActive",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isConfigurationPidDeclared",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isDeactivateDeclared",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isDefaultEnabled",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isEnabled",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isFactory",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isImmediate",,5,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isLogEnabled",,7,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isServiceFactory",,5,5
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.isStateLocked",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.loadDependencyManagers",,18,14
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.log",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.log",,8,8
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.obtainActivationReadLock",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.obtainActivationWriteLock",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.obtainLock",,29,28
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.obtainStateLock",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.registerComponentId",,8,8
+Generic Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.registerMissingDependency",,8,8
+TypeVariable,"org.apache.felix.scr.impl.manager.AbstractComponentManager.registerMissingDependency.T",0,0,0
+Protected Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.registerService",,13,9
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.releaseActivationReadLock",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.releaseActivationWriteeLock",,7,7
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.releaseStateLock",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.setServiceProperties",,8,8
+Public Abstract Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.setServiceProperties",,1,1
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.toString",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.tracked",,29,29
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.unregisterComponentId",,12,12
+Protected Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.unregisterService",,9,9
+Protected Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.unsetDependenciesCollected",,4,4
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.updateTargets",,7,7
+Protected Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.verifyDependencyManagers",,36,30
+Method,"org.apache.felix.scr.impl.manager.AbstractComponentManager.waitForTracked",,44,39
+Public Class,"org.apache.felix.scr.impl.manager.AbstractComponentManagerTest",1,31,28
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManagerTest.test_copyTo_excludingStartingWithDot",,12,12
+Public Method,"org.apache.felix.scr.impl.manager.AbstractComponentManagerTest.test_copyTo_withoutExclusions",,13,13
+Public Generic Class,"org.apache.felix.scr.impl.manager.ComponentContextImpl",1,189,140
+Constructor,"org.apache.felix.scr.impl.manager.ComponentContextImpl.ComponentContextImpl",,11,11
+Private Static Class,"org.apache.felix.scr.impl.manager.ComponentContextImpl.ComponentInstanceImpl",1,22,16
+Private Constructor,"org.apache.felix.scr.impl.manager.ComponentContextImpl.ComponentInstanceImpl.ComponentInstanceImpl",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.ComponentInstanceImpl.dispose",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.ComponentInstanceImpl.getInstance",,4,4
+TypeVariable,"org.apache.felix.scr.impl.manager.ComponentContextImpl.S",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.disableComponent",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.enableComponent",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getBundleContext",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getComponentInstance",,4,4
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getComponentManager",,4,4
+Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getEdgeInfo",,5,5
+Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getImplementationObject",,31,31
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getProperties",,6,5
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getServiceReference",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.getUsingBundle",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.locateService",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.locateService",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.locateServices",,5,5
+Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.setImplementationAccessible",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.ComponentContextImpl.setServiceProperties",,4,4
+Public Generic Class,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl",1,483,279
+Public Constructor,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.ComponentFactoryImpl",,6,6
+Static Generic Class,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.ComponentFactoryNewInstance",1,9,7
+Public Constructor,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.ComponentFactoryNewInstance.ComponentFactoryNewInstance",,5,5
+TypeVariable,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.ComponentFactoryNewInstance.S",0,0,0
+TypeVariable,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.S",0,0,0
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.collectDependencies",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.configurationDeleted",,34,26
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.configurationUpdated",,80,60
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.createComponent",,7,4
+Private Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.createComponentManager",,10,4
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.deleteComponent",,10,3
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.disableComponents",,8,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.disposeComponents",,23,14
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.disposed",,7,7
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.enableComponents",,8,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.equals",,22,9
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getChangeCount",,5,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getComponentInstance",,6,4
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getComponentList",,7,7
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getComponentManagers",,10,10
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getComponents",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getConfigurationTargetedPID",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getProperties",,25,20
+Protected Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getProvidedServices",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.getServiceProperties",,12,8
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.hasConfiguration",,4,4
+Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.hasInstance",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.hashCode",,9,4
+Generic Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.invokeBindMethod",,3,3
+TypeVariable,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.invokeBindMethod.T",0,0,0
+Generic Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.invokeUnbindMethod",,3,3
+TypeVariable,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.invokeUnbindMethod.T",0,0,0
+Generic Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.invokeUpdatedMethod",,3,3
+TypeVariable,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.invokeUpdatedMethod.T",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.isFactory",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.newInstance",,30,22
+Public Method,"org.apache.felix.scr.impl.manager.ComponentFactoryImpl.setServiceProperties",,4,4
+Public Generic Class,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl",2,234,137
+Static Generic Class,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.ComponentFactoryConfiguredInstance",1,13,11
+Public Constructor,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.ComponentFactoryConfiguredInstance.ComponentFactoryConfiguredInstance",,5,5
+TypeVariable,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.ComponentFactoryConfiguredInstance.S",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.ComponentFactoryConfiguredInstance.isImmediate",,4,4
+Public Constructor,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.ConfigurationComponentFactoryImpl",,4,4
+TypeVariable,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.S",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.configurationDeleted",,22,20
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.configurationUpdated",,45,34
+Private Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.createConfigurationComponentManager",,10,4
+Protected Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.deleteComponent",,16,9
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.disposeComponents",,22,12
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.getChangeCount",,13,12
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.getComponents",,6,6
+Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.getServiceInternal",,19,11
+Public Method,"org.apache.felix.scr.impl.manager.ConfigurationComponentFactoryImpl.getServiceProperties",,12,8
+Public Generic Class,"org.apache.felix.scr.impl.manager.DependencyManager",2,1918,1432
+Private Abstract Class,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer",1,87,69
+Protected Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.getPreviousRefMap",,4,4
+Protected Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.getTracker",,4,4
+Protected Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.isActive",,8,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.isSatisfied",,9,9
+Protected Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.isTrackerOpened",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.setPreviousRefMap",,12,11
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.setTracker",,6,6
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.setTrackerOpened",,5,5
+Protected Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.tracked",,4,4
+Protected Method,"org.apache.felix.scr.impl.manager.DependencyManager.AbstractCustomizer.ungetService",,12,12
+Private Generic Interface,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer",0,21,10
+TypeVariable,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.T",0,0,0
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.close",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.getRefs",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.isSatisfied",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.prebind",,6,1
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.setPreviousRefMap",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.setTracker",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.DependencyManager.Customizer.setTrackerOpened",,1,1
+Constructor,"org.apache.felix.scr.impl.manager.DependencyManager.DependencyManager",,24,17
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer",1,49,42
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.addedService",,7,7
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.addingService",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.close",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.getRefs",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.modifiedService",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.prebind",,7,7
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.FactoryCustomizer.removedService",,10,10
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer",3,130,121
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.addedService",,30,30
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.addingService",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.close",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.getRefs",,17,17
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.modifiedService",,10,10
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.prebind",,18,18
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleDynamicCustomizer.removedService",,24,24
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer",2,106,94
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.addedService",,19,18
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.addingService",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.close",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.getRefs",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.modifiedService",,10,10
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.prebind",,16,16
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticGreedyCustomizer.removedService",,25,22
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer",2,122,108
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.addedService",,10,10
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.addingService",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.close",,12,12
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.getRefs",,6,6
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.modifiedService",,11,11
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.prebind",,36,34
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.MultipleStaticReluctantCustomizer.removedService",,30,26
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer",1,51,40
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.addedService",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.addingService",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.close",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.getRefs",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.isSatisfied",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.modifiedService",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.prebind",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.removedService",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.setPreviousRefMap",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.setTracker",,3,3
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.NoPermissionsCustomizer.setTrackerOpened",,3,3
+TypeVariable,"org.apache.felix.scr.impl.manager.DependencyManager.S",0,0,0
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer",4,219,208
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.addedService",,49,49
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.addingService",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.close",,5,5
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.closeRefPair",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.getRefs",,16,16
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.modifiedService",,16,16
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.prebind",,28,28
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleDynamicCustomizer.removedService",,75,73
+Private Class,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer",2,139,131
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.addedService",,32,32
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.addingService",,5,5
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.close",,12,12
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.getRefs",,16,16
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.modifiedService",,16,16
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.prebind",,28,28
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.SingleStaticCustomizer.removedService",,17,17
+TypeVariable,"org.apache.felix.scr.impl.manager.DependencyManager.T",0,0,0
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.canUpdateDynamically",,68,24
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.close",,36,25
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.deactivate",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.doInvokeBindMethod",,10,10
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.getBestRefPair",,21,9
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getBindMethodName",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getBoundServiceReferences",,7,4
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.getFrameworkServiceReferences",,38,32
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.getIndex",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.getLockTimeout",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getName",,7,4
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.getRefPair",,16,5
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.getService",,11,5
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.getService",,17,5
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.getService",,47,36
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getServiceName",,4,4
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.getServiceObject",,13,13
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getServiceReferences",,20,15
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.getServices",,21,14
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getTarget",,11,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getUnbindMethodName",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.getUpdatedMethodName",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.hasGetPermission",,15,9
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.initBindingMethods",,7,4
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethod",,47,21
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.invokeBindMethodLate",,33,30
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.invokeUnbindMethod",,63,41
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.invokeUpdatedMethod",,49,35
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.isMultiple",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.isOptional",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.isReluctant",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.isSatisfied",,10,4
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.isStatic",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.newCustomizer",,44,44
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.open",,44,31
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.prebind",,4,4
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.setTargetFilter",,14,4
+Private Method,"org.apache.felix.scr.impl.manager.DependencyManager.setTargetFilter",,93,73
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.size",,15,5
+Public Method,"org.apache.felix.scr.impl.manager.DependencyManager.toString",,4,4
+Method,"org.apache.felix.scr.impl.manager.DependencyManager.unregisterServiceListener",,21,20
+Class,"org.apache.felix.scr.impl.manager.EdgeInfo",1,131,87
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.afterRange",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.beforeRange",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.getCloseLatch",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.getOpenLatch",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.ignore",,7,7
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.outOfRange",,15,6
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.setClose",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.setOpen",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.waitForClose",,7,6
+Private Method,"org.apache.felix.scr.impl.manager.EdgeInfo.waitForLatch",,32,32
+Public Method,"org.apache.felix.scr.impl.manager.EdgeInfo.waitForOpen",,7,6
+Public Generic Class,"org.apache.felix.scr.impl.manager.RefPair",1,57,44
+Public Constructor,"org.apache.felix.scr.impl.manager.RefPair.RefPair",,4,4
+TypeVariable,"org.apache.felix.scr.impl.manager.RefPair.T",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.getRef",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.getServiceObject",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.isFailed",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.setFailed",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.setServiceObject",,9,9
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.toString",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RefPair.unsetServiceObject",,4,4
+Abstract Generic Class,"org.apache.felix.scr.impl.manager.RegistrationManager",8,187,157
+Enum Type,"org.apache.felix.scr.impl.manager.RegistrationManager.RegState",1,1,1
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegState.valueOf",,0,0
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegState.values",,0,0
+Private Static Class,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper",1,41,32
+Constructor,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper.RegStateWrapper",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper.equals",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper.getLatch",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper.getRegState",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper.hashCode",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManager.RegStateWrapper.toString",,4,4
+TypeVariable,"org.apache.felix.scr.impl.manager.RegistrationManager.T",0,0,0
+Method,"org.apache.felix.scr.impl.manager.RegistrationManager.changeRegistration",,121,109
+Method,"org.apache.felix.scr.impl.manager.RegistrationManager.getServiceRegistration",,4,4
+Abstract Method,"org.apache.felix.scr.impl.manager.RegistrationManager.getTimeout",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.RegistrationManager.log",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.RegistrationManager.register",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.RegistrationManager.reportTimeout",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.RegistrationManager.unregister",,1,1
+Public Class,"org.apache.felix.scr.impl.manager.RegistrationManagerTest",3,116,93
+Private Class,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.TRM",2,70,57
+Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.TRM.getTimeout",,5,4
+Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.TRM.log",,21,19
+Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.TRM.register",,13,12
+Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.TRM.reportTimeout",,5,3
+Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.TRM.unregister",,12,11
+Private Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.runTest",,19,17
+Anonymous Class,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.runTest.(for_loop_2).(Anon_1)",1,6,5
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.runTest.(for_loop_2).(Anon_1).run",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.RegistrationManagerTest.testRegistrationManager",,12,11
+Public Generic Class,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager",1,218,145
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.S",0,0,0
+Public Constructor,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.ServiceFactoryComponentManager",,11,5
+Protected Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.createComponent",,5,4
+Protected Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.deleteComponent",,14,14
+Private Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getComponentContexts",,7,7
+Public Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getComponentInstance",,6,4
+Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getInstance",,6,4
+Public Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getService",,61,47
+Anonymous Class,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getService.(Anon_1)",1,16,15
+Public Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getService.(Anon_1).presetComponentContext",,7,7
+Public Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.getService.(Anon_1).resetImplementationObject",,7,7
+Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.hasInstance",,4,4
+Generic Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeBindMethod",,7,7
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeBindMethod.T",0,0,0
+Protected Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeModifiedMethod",,13,12
+Generic Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeUnbindMethod",,7,7
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeUnbindMethod.T",0,0,0
+Generic Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeUpdatedMethod",,7,7
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.invokeUpdatedMethod.T",0,0,0
+Public Method,"org.apache.felix.scr.impl.manager.ServiceFactoryComponentManager.ungetService",,22,18
+Public Generic Class,"org.apache.felix.scr.impl.manager.ServiceTracker",3,1484,617
+Abstract Generic Class,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked",2,450,170
+Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.AbstractTracked",,11,7
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.R",0,0,0
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.S",0,0,0
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.T",0,0,0
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.close",,6,3
+Generic Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.copyEntries",,16,4
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.copyEntries.M",0,0,0
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.copyKeys",,11,3
+Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.customizerAdded",,1,1
+Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.customizerAdding",,12,1
+Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.customizerModified",,10,1
+Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.customizerRemoved",,10,1
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.getCustomizedObject",,11,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.getTrackingCount",,13,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.isEmpty",,11,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.modified",,9,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.setInitial",,25,14
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.size",,10,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.track",,44,31
+Private Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.trackAdding",,54,29
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.trackInitial",,51,28
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.AbstractTracked.untrack",,50,24
+Private Class,"org.apache.felix.scr.impl.manager.ServiceTracker.AllTracked",1,16,5
+Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.AllTracked.AllTracked",,7,3
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTracker.S",0,0,0
+Public Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.ServiceTracker",,33,12
+Public Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.ServiceTracker",,37,14
+Public Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.ServiceTracker",,36,14
+Public Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.ServiceTracker",,21,3
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTracker.T",0,0,0
+Private Class,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked",1,114,43
+Constructor,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.Tracked",,7,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.customizerAdded",,3,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.customizerAdding",,14,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.customizerModified",,12,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.customizerRemoved",,12,3
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.modified",,11,5
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.Tracked.serviceChanged",,41,21
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.addingService",,29,4
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.close",,54,33
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.completeClose",,16,16
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.deactivate",,9,9
+Private Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getInitialReferences",,17,4
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getService",,18,9
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getService",,28,17
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getServiceReference",,70,50
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getServiceReferences",,21,14
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getServices",,31,18
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getServices",,50,29
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getTracked",,30,15
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.getTrackingCount",,28,9
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.isActive",,10,9
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.isEmpty",,16,9
+Method,"org.apache.felix.scr.impl.manager.ServiceTracker.modified",,11,7
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.modifiedService",,18,2
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.open",,14,3
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.open",,57,35
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.remove",,17,7
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.removedService",,24,3
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.size",,15,9
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.tracked",,10,3
+Public Method,"org.apache.felix.scr.impl.manager.ServiceTracker.waitForService",,53,29
+Public Generic Interface,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer",0,51,6
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer.S",0,0,0
+TypeVariable,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer.T",0,0,0
+Public Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer.addedService",,1,1
+Public Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer.addingService",,20,1
+Public Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer.modifiedService",,12,1
+Public Abstract Method,"org.apache.felix.scr.impl.manager.ServiceTrackerCustomizer.removedService",,12,1
+Public Generic Class,"org.apache.felix.scr.impl.manager.SingleComponentManager",2,899,611
+TypeVariable,"org.apache.felix.scr.impl.manager.SingleComponentManager.S",0,0,0
+Protected Generic Interface,"org.apache.felix.scr.impl.manager.SingleComponentManager.SetImplementationObject",0,21,5
+TypeVariable,"org.apache.felix.scr.impl.manager.SingleComponentManager.SetImplementationObject.S",0,0,0
+Abstract Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.SetImplementationObject.presetComponentContext",,7,1
+Abstract Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.SetImplementationObject.resetImplementationObject",,7,1
+Public Constructor,"org.apache.felix.scr.impl.manager.SingleComponentManager.SingleComponentManager",,12,5
+Public Constructor,"org.apache.felix.scr.impl.manager.SingleComponentManager.SingleComponentManager",,7,6
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.clear",,9,8
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.clearServiceProperties",,5,5
+Protected Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent",,40,32
+Anonymous Class,"org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent.(Anon_1)",1,11,9
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent.(Anon_1).presetComponentContext",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.createComponent.(Anon_1).resetImplementationObject",,4,4
+Protected Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.createImplementationObject",,114,77
+Protected Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.deleteComponent",,15,15
+Protected Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.disposeImplementationObject",,24,16
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getChangeCount",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getComponentInstance",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getConfigurationTargetedPID",,4,4
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getInstance",,9,4
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getProperties",,43,20
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getService",,13,13
+Private Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getService",,33,21
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceInternal",,71,67
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.getServiceProperties",,8,8
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.hasConfiguration",,4,4
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.hasInstance",,4,4
+Generic Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod",,10,10
+TypeVariable,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeBindMethod.T",0,0,0
+Protected Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeModifiedMethod",,10,10
+Generic Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeUnbindMethod",,10,10
+TypeVariable,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeUnbindMethod.T",0,0,0
+Generic Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeUpdatedMethod",,10,10
+TypeVariable,"org.apache.felix.scr.impl.manager.SingleComponentManager.invokeUpdatedMethod.T",0,0,0
+Private Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.keepInstances",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.modify",,74,51
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.reconfigure",,129,84
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.registerComponentId",,5,5
+Private Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.servicePropertiesMatches",,25,14
+Protected Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.setFactoryProperties",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.setServiceProperties",,16,14
+Public Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.ungetService",,29,23
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.ungetService",,4,4
+Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.unregisterComponentId",,5,5
+Private Method,"org.apache.felix.scr.impl.manager.SingleComponentManager.updateServiceRegistration",,29,27
+Public Class,"org.apache.felix.scr.impl.manager.ThreadDump",3,24,22
+Public Method,"org.apache.felix.scr.impl.manager.ThreadDump.call",,18,18
+Package,"org.apache.felix.scr.impl.manager.components",2,491,328
+Public Interface,"org.apache.felix.scr.impl.manager.components.FakeService",0,0,0
+Public Interface,"org.apache.felix.scr.impl.manager.components.SuperFakeService",0,0,0
+Public Class,"org.apache.felix.scr.impl.manager.components.T1",2,358,307
+Method,"org.apache.felix.scr.impl.manager.components.T1.packageT1",,4,4
+Method,"org.apache.felix.scr.impl.manager.components.T1.packageT1SI",,11,11
+Method,"org.apache.felix.scr.impl.manager.components.T1.packageT1SIMap",,19,19
+Method,"org.apache.felix.scr.impl.manager.components.T1.packageT1SR",,11,11
+Method,"org.apache.felix.scr.impl.manager.components.T1.packageT1SSI",,11,11
+Method,"org.apache.felix.scr.impl.manager.components.T1.packageT1SSIMap",,19,19
+Private Method,"org.apache.felix.scr.impl.manager.components.T1.privateT1",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.components.T1.privateT1SI",,11,11
+Private Method,"org.apache.felix.scr.impl.manager.components.T1.privateT1SIMap",,19,19
+Private Method,"org.apache.felix.scr.impl.manager.components.T1.privateT1SR",,11,11
+Private Method,"org.apache.felix.scr.impl.manager.components.T1.privateT1SSI",,11,11
+Private Method,"org.apache.felix.scr.impl.manager.components.T1.privateT1SSIMap",,19,19
+Protected Method,"org.apache.felix.scr.impl.manager.components.T1.protectedT1",,4,4
+Protected Method,"org.apache.felix.scr.impl.manager.components.T1.protectedT1SI",,11,11
+Protected Method,"org.apache.felix.scr.impl.manager.components.T1.protectedT1SIMap",,19,19
+Protected Method,"org.apache.felix.scr.impl.manager.components.T1.protectedT1SR",,11,11
+Protected Method,"org.apache.felix.scr.impl.manager.components.T1.protectedT1SSI",,11,11
+Protected Method,"org.apache.felix.scr.impl.manager.components.T1.protectedT1SSIMap",,19,19
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.publicT1",,4,4
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.publicT1SI",,11,11
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.publicT1SIMap",,19,19
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.publicT1SR",,11,11
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.publicT1SSI",,11,11
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.publicT1SSIMap",,19,19
+Public Method,"org.apache.felix.scr.impl.manager.components.T1.suitable",,4,4
+Public Class,"org.apache.felix.scr.impl.manager.components.T1a",0,6,3
+Public Class,"org.apache.felix.scr.impl.manager.components.T3",0,6,3
+Package,"org.apache.felix.scr.impl.manager.components2",2,211,163
+Public Class,"org.apache.felix.scr.impl.manager.components2.T2",2,181,156
+Method,"org.apache.felix.scr.impl.manager.components2.T2.packageT2",,4,4
+Method,"org.apache.felix.scr.impl.manager.components2.T2.packageT2SI",,11,11
+Method,"org.apache.felix.scr.impl.manager.components2.T2.packageT2SIMap",,19,19
+Method,"org.apache.felix.scr.impl.manager.components2.T2.packageT2SR",,11,11
+Method,"org.apache.felix.scr.impl.manager.components2.T2.packageT2SSI",,11,11
+Method,"org.apache.felix.scr.impl.manager.components2.T2.packageT2SSIMap",,19,19
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.privateT2",,4,4
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.privateT2SI",,11,11
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.privateT2SIMap",,19,19
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.privateT2SR",,11,11
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.privateT2SSI",,11,11
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.privateT2SSIMap",,19,19
+Private Method,"org.apache.felix.scr.impl.manager.components2.T2.suitable",,4,4
+Package,"org.apache.felix.scr.impl.metadata",2,3769,2296
+Public Class,"org.apache.felix.scr.impl.metadata.ComponentMetadata",2,812,397
+Public Constructor,"org.apache.felix.scr.impl.metadata.ComponentMetadata.ComponentMetadata",,4,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.addDependency",,17,12
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.addProperty",,17,12
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getActivate",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getConfigurationPid",,13,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getConfigurationPolicy",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getDeactivate",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getDependencies",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getFactoryIdentifier",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getImplementationClassName",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getModified",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getName",,21,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getNamespaceCode",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getProperties",,9,4
+Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getPropertyMetaData",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.getServiceMetadata",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isActivateDeclared",,12,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isConfigurationIgnored",,8,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isConfigurationOptional",,8,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isConfigurationPidDeclared",,12,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isConfigurationRequired",,8,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isDS11",,8,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isDS11Felix",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isDS12",,8,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isDS12Felix",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isDeactivateDeclared",,12,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isEnabled",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isFactory",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.isImmediate",,23,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setActivate",,15,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setConfigurationPid",,12,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setConfigurationPolicy",,14,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setDeactivate",,15,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setEnabled",,13,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setFactoryIdentifier",,12,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setImmediate",,13,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setImplementationClassName",,22,15
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setModified",,14,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setName",,13,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.setService",,22,15
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.validate",,151,111
+Method,"org.apache.felix.scr.impl.metadata.ComponentMetadata.validationFailure",,10,4
+Public Class,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest",1,962,746
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.assertPrimitiveType",,39,39
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.assertProperty",,7,7
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.assertPropertyArray",,12,11
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.assertPropertyArrayFail",,14,13
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.assertPropertyFail",,13,12
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createComponentMetadata",,15,15
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createComponentMetadata",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createComponentMetadata11",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createComponentMetadata12",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createPropertyMetadata",,17,17
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createReferenceMetadata",,7,7
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.createServiceMetadata",,10,10
+Private Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.doTest_get_configuration_pid_method",,40,36
+Static Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.failDS10Validation",,16,16
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.testDelayed",,50,36
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.testFactory",,114,84
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.testImmediate",,37,27
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_activate_ds10",,11,10
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_activate_ds11",,13,12
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_configuration_policy_ds10",,23,19
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_configuration_policy_ds11",,37,32
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_deactivate_ds10",,11,10
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_deactivate_ds11",,13,12
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_modified_ds10",,10,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_modified_ds11",,11,10
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_no_name_ds10",,14,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_component_no_name_ds11",,8,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_configuration_pid_use_ds12",,26,24
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_duplicate_implementation_ds10",,14,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_duplicate_implementation_ds11",,14,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_duplicate_service_ds10",,15,14
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_duplicate_service_ds11",,15,14
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_get_configuration_pid_method",,6,6
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_array_non_character",,19,18
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_char_ds10",,9,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_char_ds11",,14,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_character_ds10",,13,12
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_character_ds11",,9,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_no_name_ds10",,14,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_no_name_ds11",,14,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_property_non_character",,20,18
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_duplicate_name",,16,14
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_no_name_ds10",,15,13
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_no_name_ds11",,9,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_updated_ds10",,11,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_updated_ds11",,11,8
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_updated_ds11_felix",,13,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_updated_ds12",,13,9
+Public Method,"org.apache.felix.scr.impl.metadata.ComponentMetadataTest.test_reference_valid",,8,7
+Public Class,"org.apache.felix.scr.impl.metadata.PropertyMetadata",5,312,218
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.getName",,8,3
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.getType",,8,3
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.getValue",,8,3
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.setName",,12,6
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.setType",,11,6
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.setValue",,11,6
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.setValues",,21,14
+Private Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.toType",,55,43
+Private Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.toTypeArray",,91,83
+Public Method,"org.apache.felix.scr.impl.metadata.PropertyMetadata.validate",,53,45
+Public Class,"org.apache.felix.scr.impl.metadata.ReferenceMetadata",1,476,221
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getBind",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getCardinality",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getInterface",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getName",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getPolicy",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getPolicyOption",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getTarget",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getTargetPropertyName",,11,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getUnbind",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.getUpdated",,10,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.isMultiple",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.isOptional",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.isReluctant",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.isStatic",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setBind",,14,8
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setCardinality",,18,10
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setInterface",,15,8
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setName",,14,8
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setPolicy",,17,9
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setPolicyOption",,17,9
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setTarget",,14,8
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setUnbind",,14,8
+Public Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.setUpdated",,14,8
+Method,"org.apache.felix.scr.impl.metadata.ReferenceMetadata.validate",,63,48
+Public Class,"org.apache.felix.scr.impl.metadata.ServiceMetadata",1,74,32
+Public Method,"org.apache.felix.scr.impl.metadata.ServiceMetadata.addProvide",,12,6
+Public Method,"org.apache.felix.scr.impl.metadata.ServiceMetadata.getProvides",,8,3
+Public Method,"org.apache.felix.scr.impl.metadata.ServiceMetadata.isServiceFactory",,8,3
+Public Method,"org.apache.felix.scr.impl.metadata.ServiceMetadata.setServiceFactory",,12,6
+Method,"org.apache.felix.scr.impl.metadata.ServiceMetadata.validate",,13,9
+Public Class,"org.apache.felix.scr.impl.metadata.XmlHandler",5,479,281
+Public Constructor,"org.apache.felix.scr.impl.metadata.XmlHandler.XmlHandler",,5,5
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.characters",,13,9
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.endElement",,33,22
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.getComponentMetadataList",,9,4
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.processingInstruction",,7,3
+Private Method,"org.apache.felix.scr.impl.metadata.XmlHandler.readPropertiesEntry",,61,44
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.setColumnNumber",,7,3
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.setLineNumber",,7,3
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandler.startElement",,233,153
+Public Class,"org.apache.felix.scr.impl.metadata.XmlHandlerTest",1,440,341
+Private Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.getPropertyMetadata",,15,13
+Private Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.getReference",,15,13
+Private Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.readMetadata",,24,21
+Private Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.readMetadata",,7,7
+Private Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.readMetadataFromString",,5,5
+Protected Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.setUp",,6,5
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_all_elements_10",,76,57
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_component_attributes_11",,23,22
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_component_no_name",,21,19
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_duplicate_implementation_class_10",,15,14
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_duplicate_implementation_class_11",,15,14
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_duplicate_service_10",,15,14
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_duplicate_service_11",,15,14
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_interleaved_elements",,12,11
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_namespace_1_0_0",,7,7
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_namespace_1_1_0",,7,7
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_namespace_1_1_0_felix",,7,7
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_namespace_1_2_0",,7,7
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_namespace_1_2_0_felix",,7,7
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_namespace_unknown",,5,5
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_no_namespace",,8,7
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_no_opening_element",,12,11
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_properties_11",,27,20
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_reference_no_name",,21,19
+Public Method,"org.apache.felix.scr.impl.metadata.XmlHandlerTest.test_unclosed_elements",,12,11
+Package,"org.apache.felix.scr.impl.metadata.instances",1,268,122
+Public Class,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod",1,50,31
+Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.package_string",,4,4
+Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.package_void",,3,3
+Private Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.private_string",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.private_void",,3,3
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.protected_string",,4,4
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.protected_void",,3,3
+Public Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.public_string",,4,4
+Public Method,"org.apache.felix.scr.impl.metadata.instances.AcceptMethod.public_void",,3,3
+Public Class,"org.apache.felix.scr.impl.metadata.instances.BaseObject",1,80,53
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_comp",,4,4
+Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_comp_bundle",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_no_arg",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_precedence_1",,4,4
+Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_precedence_1",,4,4
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_precedence_1",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_precedence_2",,4,4
+Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_precedence_2",,4,4
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_precedence_2",,4,4
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.activate_suitable",,4,4
+Public Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.getCalledMethod",,6,6
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.BaseObject.setCalledMethod",,3,3
+Public Class,"org.apache.felix.scr.impl.metadata.instances.Level1Object",1,15,11
+Private Method,"org.apache.felix.scr.impl.metadata.instances.Level1Object.activate_level1_bundle",,4,4
+Protected Method,"org.apache.felix.scr.impl.metadata.instances.Level1Object.activate_level1_map",,4,4
+Public Class,"org.apache.felix.scr.impl.metadata.instances.Level3Object",1,22,15
+Public Method,"org.apache.felix.scr.impl.metadata.instances.Level3Object.activate_collision",,4,4
+Public Method,"org.apache.felix.scr.impl.metadata.instances.Level3Object.activate_collision",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances.Level3Object.activate_comp_map",,4,4
+Package,"org.apache.felix.scr.impl.metadata.instances2",1,65,31
+Public Class,"org.apache.felix.scr.impl.metadata.instances2.Level2Object",1,38,27
+Public Method,"org.apache.felix.scr.impl.metadata.instances2.Level2Object.activate_collision",,4,4
+Public Method,"org.apache.felix.scr.impl.metadata.instances2.Level2Object.activate_collision",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances2.Level2Object.activate_comp_map",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances2.Level2Object.activate_comp_unsuitable",,4,4
+Protected Method,"org.apache.felix.scr.impl.metadata.instances2.Level2Object.activate_comp_unsuitable",,4,4
+Private Method,"org.apache.felix.scr.impl.metadata.instances2.Level2Object.activate_suitable",,4,4
+Package,"org.apache.felix.scr.impl.parser",2,255,122
+Public Interface,"org.apache.felix.scr.impl.parser.KXml2SAXHandler",0,44,17
+Abstract Method,"org.apache.felix.scr.impl.parser.KXml2SAXHandler.characters",,7,1
+Abstract Method,"org.apache.felix.scr.impl.parser.KXml2SAXHandler.endElement",,11,4
+Abstract Method,"org.apache.felix.scr.impl.parser.KXml2SAXHandler.processingInstruction",,3,3
+Abstract Method,"org.apache.felix.scr.impl.parser.KXml2SAXHandler.setColumnNumber",,1,1
+Abstract Method,"org.apache.felix.scr.impl.parser.KXml2SAXHandler.setLineNumber",,1,1
+Abstract Method,"org.apache.felix.scr.impl.parser.KXml2SAXHandler.startElement",,13,5
+Public Class,"org.apache.felix.scr.impl.parser.KXml2SAXParser",4,129,89
+Public Constructor,"org.apache.felix.scr.impl.parser.KXml2SAXParser.KXml2SAXParser",,12,6
+Private Static Class,"org.apache.felix.scr.impl.parser.KXml2SAXParser.XmlElement",1,28,22
+Constructor,"org.apache.felix.scr.impl.parser.KXml2SAXParser.XmlElement.XmlElement",,7,7
+Method,"org.apache.felix.scr.impl.parser.KXml2SAXParser.XmlElement.match",,4,4
+Public Method,"org.apache.felix.scr.impl.parser.KXml2SAXParser.XmlElement.toString",,4,4
+Private Method,"org.apache.felix.scr.impl.parser.KXml2SAXParser.ensureMatchingCurrentElement",,15,14
+Public Method,"org.apache.felix.scr.impl.parser.KXml2SAXParser.parseXML",,60,44
+Public Class,"org.apache.felix.scr.impl.parser.ParseException",1,7,6
+Public Constructor,"org.apache.felix.scr.impl.parser.ParseException.ParseException",,3,3
+Package,"org.apache.felix.scr.integration",2,8373,5892
+Public Class,"org.apache.felix.scr.integration.ActivateSignatureTest",2,46,28
+Public Method,"org.apache.felix.scr.integration.ActivateSignatureTest.test",,25,19
+Public Class,"org.apache.felix.scr.integration.CircularFactoryTest",2,26,18
+Public Method,"org.apache.felix.scr.integration.CircularFactoryTest.testCircularFactory",,11,9
+Public Class,"org.apache.felix.scr.integration.CircularReferenceTest",1,280,208
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B01_delayed_A_first",,27,21
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B01_delayed_B_first",,53,39
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B01_immediate_A_first",,19,15
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B01_immediate_B_first",,19,15
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B0n_delayed_A_first",,28,21
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B0n_delayed_B_first",,52,39
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B0n_immediate_A_first",,19,15
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B0n_immediate_B_first",,19,15
+Public Method,"org.apache.felix.scr.integration.CircularReferenceTest.test_A11_B11",,17,11
+Public Class,"org.apache.felix.scr.integration.ComponentActivationTest",1,323,204
+Private Method,"org.apache.felix.scr.integration.ComponentActivationTest.testRequiredDependency",,36,24
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_fail",,22,14
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_missing",,22,14
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service",,24,16
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service_delayed",,27,18
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service_multiple_dynamic_dependency",,6,5
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service_multiple_static_greedy_dependency",,6,5
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service_multiple_static_reluctant_dependency",,6,5
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service_single_dynamic_dependency",,6,5
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_register_service_single_static_dependency",,6,5
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activate_service_factory_register_service",,27,18
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activator_declared",,21,14
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_activator_not_declared",,21,14
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_deactivate_fail",,21,14
+Public Method,"org.apache.felix.scr.integration.ComponentActivationTest.test_deactivate_missing",,21,14
+Public Class,"org.apache.felix.scr.integration.ComponentConcurrencyTest",2,54,45
+Protected Static Method,"org.apache.felix.scr.integration.ComponentConcurrencyTest.delay",,10,10
+Public Method,"org.apache.felix.scr.integration.ComponentConcurrencyTest.test_concurrent_component_activation_using_componentFactories",,28,24
+Public Class,"org.apache.felix.scr.integration.ComponentConfigurationPidTest",1,82,59
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationPidTest.test_configurationpid_must_not_use_name_as_pid",,29,21
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationPidTest.test_configurationpid_use_other_pid",,40,29
+Public Class,"org.apache.felix.scr.integration.ComponentConfigurationTest",1,667,470
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_configuration_ignore",,41,30
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_configuration_optional",,50,38
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_configuration_require",,39,28
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_dynamic_configuration",,46,34
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_dynamic_configuration_with_optional_service",,91,65
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_dynamic_configuration_with_required_service",,83,57
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_dynamic_configuration_with_required_service2",,98,67
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_factory_configuration",,95,68
+Public Method,"org.apache.felix.scr.integration.ComponentConfigurationTest.test_SimpleComponent_factory_configuration_enabled",,91,68
+Public Class,"org.apache.felix.scr.integration.ComponentDisposeTest",2,127,94
+Private Static Method,"org.apache.felix.scr.integration.ComponentDisposeTest.getComponentHolder",,18,17
+Public Method,"org.apache.felix.scr.integration.ComponentDisposeTest.test_SimpleComponent_factory_configuration",,96,70
+Public Class,"org.apache.felix.scr.integration.ComponentFactoryTest",3,625,458
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory",,70,56
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_disable_factory",,61,43
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_newInstance_failure",,45,36
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_reference",,187,146
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_referredTo",,54,35
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_require_configuration",,83,56
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_set_bundle_location_null",,41,31
+Public Method,"org.apache.felix.scr.integration.ComponentFactoryTest.test_component_factory_with_target_filters",,52,39
+Public Abstract Class,"org.apache.felix.scr.integration.ComponentTestBase",3,862,720
+Public Static Class,"org.apache.felix.scr.integration.ComponentTestBase.Log",3,232,200
+Public Constructor,"org.apache.felix.scr.integration.ComponentTestBase.Log.Log",,4,4
+Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.foundWarnings",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.frameworkEvent",,11,11
+Private Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.getEnabledLogLevel",,19,19
+Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.getFirstFrameworkThrowable",,4,4
+Private Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.getFrameworkEventMessage",,20,20
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.log",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.log",,8,8
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.log",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.log",,18,18
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.run",,52,50
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.start",,9,9
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.Log.stop",,29,29
+Public Static Class,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry",1,54,40
+Constructor,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.LogEntry",,8,8
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.getError",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.getLevel",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.getMessage",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.getThread",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.getTime",,4,4
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.LogEntry.toString",,4,4
+Static Class,"org.apache.felix.scr.integration.ComponentTestBase.NullStdout",1,13,13
+Constructor,"org.apache.felix.scr.integration.ComponentTestBase.NullStdout.NullStdout",,10,10
+Anonymous Class,"org.apache.felix.scr.integration.ComponentTestBase.NullStdout.NullStdout.(Anon_1)",1,5,5
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.NullStdout.NullStdout.(Anon_1).write",,3,3
+Public Static Method,"org.apache.felix.scr.integration.ComponentTestBase.configuration",,25,23
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.configure",,5,4
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.configure",,19,19
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.createFactoryConfiguration",,15,15
+Protected Static Method,"org.apache.felix.scr.integration.ComponentTestBase.delay",,11,10
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.deleteConfig",,13,13
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.deleteFactoryConfigurations",,24,23
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.extendProbe",,12,12
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.findComponentByName",,10,9
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.findComponentsByName",,10,9
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.getComponentManagerFromComponentInstance",,5,5
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.getComponents",,10,9
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.getConfigurationAdmin",,9,9
+Protected Static Method,"org.apache.felix.scr.integration.ComponentTestBase.getField",,19,19
+Protected Static Method,"org.apache.felix.scr.integration.ComponentTestBase.getFieldValue",,13,13
+Protected Static Method,"org.apache.felix.scr.integration.ComponentTestBase.getType",,14,13
+Method,"org.apache.felix.scr.integration.ComponentTestBase.info",,123,114
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.installBundle",,30,28
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.installBundle",,4,4
+Protected Method,"org.apache.felix.scr.integration.ComponentTestBase.isAtLeastR5",,16,16
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.setUp",,15,13
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.tearDown",,20,19
+Public Method,"org.apache.felix.scr.integration.ComponentTestBase.testDescription",,5,5
+Private Method,"org.apache.felix.scr.integration.ComponentTestBase.toStateString",,33,32
+Public Class,"org.apache.felix.scr.integration.ConfigurationChangeTest",1,304,248
+Private Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.multipleTest",,51,43
+Private Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.singleTest",,51,43
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.testSingleDynamicRequiredFactory",,71,58
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_multiple_dynamic",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_multiple_dynamic_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_multiple_static",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_multiple_static_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_single_dynamic",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_single_dynamic_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_single_static",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_optional_single_static_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_multiple_dynamic",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_multiple_dynamic_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_multiple_static",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_multiple_static_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_single_dynamic",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_single_dynamic_greedy",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_single_static",,5,5
+Public Method,"org.apache.felix.scr.integration.ConfigurationChangeTest.test_required_single_static_greedy",,5,5
+Public Class,"org.apache.felix.scr.integration.ConfigurationComponentFactoryTest",12,181,133
+Public Method,"org.apache.felix.scr.integration.ConfigurationComponentFactoryTest.test_non_spec_component_factory_with_factory_configuration",,160,123
+Public Class,"org.apache.felix.scr.integration.Felix3680Test",2,52,41
+Protected Static Method,"org.apache.felix.scr.integration.Felix3680Test.delay",,10,10
+Public Method,"org.apache.felix.scr.integration.Felix3680Test.test_concurrent_reference_bindings",,20,19
+Public Class,"org.apache.felix.scr.integration.Felix3680_2Test",3,53,43
+Protected Static Method,"org.apache.felix.scr.integration.Felix3680_2Test.delay",,10,10
+Public Method,"org.apache.felix.scr.integration.Felix3680_2Test.test_concurrent_injection_with_bundleContext",,21,21
+Public Class,"org.apache.felix.scr.integration.Felix4188Test",1,104,81
+Private Method,"org.apache.felix.scr.integration.Felix4188Test.getField",,5,5
+Protected Method,"org.apache.felix.scr.integration.Felix4188Test.installBundle",,28,26
+Public Method,"org.apache.felix.scr.integration.Felix4188Test.test_concurrent_deactivation",,47,39
+Anonymous Class,"org.apache.felix.scr.integration.Felix4188Test.test_concurrent_deactivation.(Anon_1)",2,11,11
+Public Method,"org.apache.felix.scr.integration.Felix4188Test.test_concurrent_deactivation.(Anon_1).run",,10,10
+Public Class,"org.apache.felix.scr.integration.LocationTest",3,203,145
+Public Method,"org.apache.felix.scr.integration.LocationTest.testLocationBinding",,67,48
+Anonymous Class,"org.apache.felix.scr.integration.LocationTest.testLocationBinding.(Anon_1)",2,9,8
+Public Method,"org.apache.felix.scr.integration.LocationTest.testLocationBinding.(Anon_1).configurationEvent",,7,7
+Public Method,"org.apache.felix.scr.integration.LocationTest.testLocationChangeToRegionBinding",,67,48
+Anonymous Class,"org.apache.felix.scr.integration.LocationTest.testLocationChangeToRegionBinding.(Anon_2)",2,9,8
+Public Method,"org.apache.felix.scr.integration.LocationTest.testLocationChangeToRegionBinding.(Anon_2).configurationEvent",,7,7
+Public Method,"org.apache.felix.scr.integration.LocationTest.testRegionBinding",,47,36
+Public Class,"org.apache.felix.scr.integration.MutablePropertiesTest",1,158,116
+Private Method,"org.apache.felix.scr.integration.MutablePropertiesTest.checkProperties",,11,11
+Public Method,"org.apache.felix.scr.integration.MutablePropertiesTest.test_mutable_properties",,32,23
+Public Method,"org.apache.felix.scr.integration.MutablePropertiesTest.test_mutable_properties_bind_returned",,27,22
+Public Method,"org.apache.felix.scr.integration.MutablePropertiesTest.test_mutable_properties_returned",,34,25
+Public Method,"org.apache.felix.scr.integration.MutablePropertiesTest.test_mutable_properties_returned_public",,34,25
+Public Class,"org.apache.felix.scr.integration.ServiceBindGreedyTest",1,1224,879
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_multi_service_bind_unbind_order",,32,25
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_optional_multiple_dynamic",,130,95
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_optional_multiple_static",,138,104
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_optional_single_dynamic",,120,84
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_optional_single_static",,127,91
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_required_multiple_dynamic",,128,93
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_required_multiple_dynamic_factory",,133,100
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_required_multiple_static",,134,100
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_required_single_dynamic",,118,82
+Public Method,"org.apache.felix.scr.integration.ServiceBindGreedyTest.test_required_single_static",,123,88
+Public Class,"org.apache.felix.scr.integration.ServiceBindTest",1,1224,879
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_multi_service_bind_unbind_order",,32,25
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_optional_multiple_dynamic",,130,95
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_optional_multiple_static",,138,104
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_optional_single_dynamic",,120,84
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_optional_single_static",,127,91
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_required_multiple_dynamic",,128,93
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_required_multiple_dynamic_factory",,133,100
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_required_multiple_static",,134,100
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_required_single_dynamic",,118,82
+Public Method,"org.apache.felix.scr.integration.ServiceBindTest.test_required_single_static",,123,88
+Public Class,"org.apache.felix.scr.integration.ServiceChangedTest",1,600,445
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_optional_multiple_dynamic",,68,51
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_optional_multiple_static",,81,63
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_optional_single_dynamic",,65,48
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_optional_single_static",,76,59
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_required_multiple_dynamic",,68,51
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_required_multiple_static",,75,57
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_required_single_dynamic",,63,47
+Public Method,"org.apache.felix.scr.integration.ServiceChangedTest.test_required_single_static",,71,55
+Public Class,"org.apache.felix.scr.integration.ServiceComponentTest",1,194,130
+Public Method,"org.apache.felix.scr.integration.ServiceComponentTest.test_DelayedSimpleComponent_service_keep_instance",,52,35
+Public Method,"org.apache.felix.scr.integration.ServiceComponentTest.test_DelayedSimpleComponent_service_multi_use",,41,28
+Public Method,"org.apache.felix.scr.integration.ServiceComponentTest.test_DelayedSimpleComponent_service_single_use",,38,25
+Public Method,"org.apache.felix.scr.integration.ServiceComponentTest.test_SimpleComponent_service",,44,32
+Public Class,"org.apache.felix.scr.integration.TargetedPIDTest",1,137,105
+Private Method,"org.apache.felix.scr.integration.TargetedPIDTest.getNewComponent",,8,8
+Public Method,"org.apache.felix.scr.integration.TargetedPIDTest.testTargetedPID",,106,84
+Package,"org.apache.felix.scr.integration.components",1,838,473
+Public Class,"org.apache.felix.scr.integration.components.ActivatorComponent",2,64,50
+Private Method,"org.apache.felix.scr.integration.components.ActivatorComponent.bindSimpleService",,4,4
+Public Method,"org.apache.felix.scr.integration.components.ActivatorComponent.getSimpleService",,4,4
+Private Method,"org.apache.felix.scr.integration.components.ActivatorComponent.myActivate",,11,11
+Private Method,"org.apache.felix.scr.integration.components.ActivatorComponent.myDeactivate",,12,12
+Private Method,"org.apache.felix.scr.integration.components.ActivatorComponent.unbindSimpleService",,7,7
+Public Class,"org.apache.felix.scr.integration.components.Felix4188Component",1,21,17
+Method,"org.apache.felix.scr.integration.components.Felix4188Component.start",,4,4
+Method,"org.apache.felix.scr.integration.components.Felix4188Component.stop",,9,9
+Public Interface,"org.apache.felix.scr.integration.components.MutatingService",0,6,4
+Abstract Method,"org.apache.felix.scr.integration.components.MutatingService.updateProperties",,1,1
+Public Class,"org.apache.felix.scr.integration.components.MutatingServiceImpl",1,62,50
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.activate",,4,4
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.activateMutate",,11,11
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.bindSimpleService",,4,4
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.deactivateMutate",,6,6
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.modified",,4,3
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.modifiedMutate",,6,6
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.unbindSimpleService",,4,4
+Public Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.updateProperties",,4,4
+Private Method,"org.apache.felix.scr.integration.components.MutatingServiceImpl.updateSimpleService",,4,4
+Public Class,"org.apache.felix.scr.integration.components.SimpleComponent",1,148,103
+Private Method,"org.apache.felix.scr.integration.components.SimpleComponent.activate",,28,24
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent.bindSimpleService",,5,5
+Private Method,"org.apache.felix.scr.integration.components.SimpleComponent.configure",,4,4
+Private Method,"org.apache.felix.scr.integration.components.SimpleComponent.deactivate",,8,7
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent.getProperty",,4,4
+Private Method,"org.apache.felix.scr.integration.components.SimpleComponent.modified",,5,5
+Protected Method,"org.apache.felix.scr.integration.components.SimpleComponent.setConfig",,4,4
+Protected Method,"org.apache.felix.scr.integration.components.SimpleComponent.setConfig",,11,11
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent.setSimpleService",,5,5
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent.unbindSimpleService",,5,5
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent.unsetSimpleService",,8,8
+Public Class,"org.apache.felix.scr.integration.components.SimpleComponent2",1,51,35
+Private Method,"org.apache.felix.scr.integration.components.SimpleComponent2.activate",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent2.bindSimpleService",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent2.bindSimpleService2",,4,4
+Private Method,"org.apache.felix.scr.integration.components.SimpleComponent2.deactivate",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent2.getBindings",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent2.unbindSimpleService",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleComponent2.unbindSimpleService2",,4,4
+Public Interface,"org.apache.felix.scr.integration.components.SimpleService",0,5,4
+Abstract Method,"org.apache.felix.scr.integration.components.SimpleService.getValue",,1,1
+Public Interface,"org.apache.felix.scr.integration.components.SimpleService2",0,5,4
+Abstract Method,"org.apache.felix.scr.integration.components.SimpleService2.getValue2",,1,1
+Public Class,"org.apache.felix.scr.integration.components.SimpleService2Impl",1,103,77
+Constructor,"org.apache.felix.scr.integration.components.SimpleService2Impl.SimpleService2Impl",,6,6
+Public Static Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.create",,4,4
+Public Static Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.create",,7,7
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.drop",,9,9
+Private Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.getProperties",,11,11
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.getRegistration",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.getValue2",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.setFilterProperty",,8,8
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.setRegistration",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.toString",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleService2Impl.update",,8,8
+Public Class,"org.apache.felix.scr.integration.components.SimpleServiceImpl",1,111,85
+Public Constructor,"org.apache.felix.scr.integration.components.SimpleServiceImpl.SimpleServiceImpl",,4,4
+Constructor,"org.apache.felix.scr.integration.components.SimpleServiceImpl.SimpleServiceImpl",,6,6
+Public Static Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.create",,4,4
+Public Static Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.create",,7,7
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.drop",,10,10
+Private Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.getProperties",,11,11
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.getRegistration",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.getValue",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.setFilterProperty",,9,9
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.setRegistration",,5,5
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.toString",,4,4
+Public Method,"org.apache.felix.scr.integration.components.SimpleServiceImpl.update",,9,9
+Package,"org.apache.felix.scr.integration.components.activatesignature",1,452,143
+Public Abstract Class,"org.apache.felix.scr.integration.components.activatesignature.AbstractActivateSignatureTestComponent",1,32,22
+Public Method,"org.apache.felix.scr.integration.components.activatesignature.AbstractActivateSignatureTestComponent.getMethodCalled",,4,4
+Protected Method,"org.apache.felix.scr.integration.components.activatesignature.AbstractActivateSignatureTestComponent.setMethodCalled",,5,5
+Protected Method,"org.apache.felix.scr.integration.components.activatesignature.AbstractActivateSignatureTestComponent.setMethodCalled",,5,5
+Protected Method,"org.apache.felix.scr.integration.components.activatesignature.AbstractActivateSignatureTestComponent.setMethodCalled",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Package_BundleContext",1,9,8
+Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Package_BundleContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Package_ComponentContext",1,8,7
+Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Package_ComponentContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Package_Map",1,9,8
+Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Package_Map.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Private_BundleContext",1,9,8
+Private Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Private_BundleContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Private_ComponentContext",1,9,8
+Private Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Private_ComponentContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Private_Map",1,9,8
+Private Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Private_Map.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Protected_BundleContext",1,9,8
+Protected Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Protected_BundleContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Protected_ComponentContext",1,8,7
+Protected Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Protected_ComponentContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Protected_Map",1,9,8
+Protected Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Protected_Map.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Public_BundleContext",1,9,8
+Public Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Public_BundleContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Public_ComponentContext",1,8,7
+Public Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Public_ComponentContext.activate",,4,4
+Public Class,"org.apache.felix.scr.integration.components.activatesignature.Signature_Public_Map",1,9,8
+Public Method,"org.apache.felix.scr.integration.components.activatesignature.Signature_Public_Map.activate",,4,4
+Package,"org.apache.felix.scr.integration.components.circular",1,116,50
+Public Class,"org.apache.felix.scr.integration.components.circular.A",1,31,21
+Private Method,"org.apache.felix.scr.integration.components.circular.A.activate",,4,4
+Public Method,"org.apache.felix.scr.integration.components.circular.A.getBs",,4,4
+Private Method,"org.apache.felix.scr.integration.components.circular.A.setB",,4,4
+Private Method,"org.apache.felix.scr.integration.components.circular.A.unsetB",,4,4
+Public Class,"org.apache.felix.scr.integration.components.circular.B",1,31,21
+Private Method,"org.apache.felix.scr.integration.components.circular.B.activate",,4,4
+Public Method,"org.apache.felix.scr.integration.components.circular.B.getAs",,4,4
+Private Method,"org.apache.felix.scr.integration.components.circular.B.setA",,4,4
+Private Method,"org.apache.felix.scr.integration.components.circular.B.unsetA",,4,4
+Package,"org.apache.felix.scr.integration.components.circularFactory",1,74,23
+Public Class,"org.apache.felix.scr.integration.components.circularFactory.FactoryClient",1,26,16
+Protected Method,"org.apache.felix.scr.integration.components.circularFactory.FactoryClient.setFactory",,5,4
+Protected Method,"org.apache.felix.scr.integration.components.circularFactory.FactoryClient.setFactoryInstance",,4,3
+Protected Method,"org.apache.felix.scr.integration.components.circularFactory.FactoryClient.unsetFactory",,4,3
+Protected Method,"org.apache.felix.scr.integration.components.circularFactory.FactoryClient.unsetFactoryInstance",,4,3
+Public Class,"org.apache.felix.scr.integration.components.circularFactory.FactoryInstance",0,4,3
+Package,"org.apache.felix.scr.integration.components.concurrency",2,175,101
+Public Class,"org.apache.felix.scr.integration.components.concurrency.A",1,9,8
+Method,"org.apache.felix.scr.integration.components.concurrency.A.bindB",,3,3
+Method,"org.apache.felix.scr.integration.components.concurrency.A.start",,3,3
+Public Class,"org.apache.felix.scr.integration.components.concurrency.AFactory",2,45,35
+Method,"org.apache.felix.scr.integration.components.concurrency.AFactory.activate",,7,7
+Public Method,"org.apache.felix.scr.integration.components.concurrency.AFactory.bindAFactory",,3,3
+Method,"org.apache.felix.scr.integration.components.concurrency.AFactory.deactivate",,10,6
+Public Method,"org.apache.felix.scr.integration.components.concurrency.AFactory.run",,17,15
+Public Class,"org.apache.felix.scr.integration.components.concurrency.B",1,6,6
+Method,"org.apache.felix.scr.integration.components.concurrency.B.bindC",,3,3
+Public Class,"org.apache.felix.scr.integration.components.concurrency.C",0,4,3
+Public Class,"org.apache.felix.scr.integration.components.concurrency.CFactory",2,44,39
+Method,"org.apache.felix.scr.integration.components.concurrency.CFactory.activate",,7,7
+Public Method,"org.apache.felix.scr.integration.components.concurrency.CFactory.bindCFactory",,3,3
+Method,"org.apache.felix.scr.integration.components.concurrency.CFactory.deactivate",,10,10
+Public Method,"org.apache.felix.scr.integration.components.concurrency.CFactory.run",,16,15
+Package,"org.apache.felix.scr.integration.components.felix3680",1,660,385
+Public Class,"org.apache.felix.scr.integration.components.felix3680.A",1,26,21
+Method,"org.apache.felix.scr.integration.components.felix3680.A.bindB",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.A.bindC",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.A.bindD",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.A.bindE",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.A.bindF",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.A.start",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.B",1,10,9
+Method,"org.apache.felix.scr.integration.components.felix3680.B.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.B.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.C",1,10,9
+Method,"org.apache.felix.scr.integration.components.felix3680.C.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.C.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.D",1,10,9
+Method,"org.apache.felix.scr.integration.components.felix3680.D.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.D.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.E",1,10,9
+Method,"org.apache.felix.scr.integration.components.felix3680.E.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.E.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.F",1,14,12
+Method,"org.apache.felix.scr.integration.components.felix3680.F.bindG",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.F.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.F.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.G",1,14,12
+Method,"org.apache.felix.scr.integration.components.felix3680.G.bindH",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.G.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.G.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.H",1,14,12
+Method,"org.apache.felix.scr.integration.components.felix3680.H.bindI",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.H.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.H.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.I",1,14,12
+Method,"org.apache.felix.scr.integration.components.felix3680.I.bindJ",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.I.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.I.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.J",1,14,12
+Method,"org.apache.felix.scr.integration.components.felix3680.J.bindK",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.J.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.J.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.K",1,10,9
+Method,"org.apache.felix.scr.integration.components.felix3680.K.start",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680.K.stop",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680.Main",3,257,233
+Class,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager",2,69,61
+Constructor,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.EnableManager",,4,4
+Public Method,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.disableComponents",,4,4
+Public Method,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.enableComponents",,4,4
+Private Method,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.enableOrDisable",,24,24
+Anonymous Class,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.enableOrDisable.(for_loop_1).(Anon_1)",2,16,16
+Public Method,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.enableOrDisable.(for_loop_1).(Anon_1).run",,15,15
+Private Method,"org.apache.felix.scr.integration.components.felix3680.Main.EnableManager.getRandomIndexes",,21,21
+Method,"org.apache.felix.scr.integration.components.felix3680.Main.bindA",,13,13
+Method,"org.apache.felix.scr.integration.components.felix3680.Main.bindLogService",,4,4
+Method,"org.apache.felix.scr.integration.components.felix3680.Main.bindSCR",,4,4
+Private Method,"org.apache.felix.scr.integration.components.felix3680.Main.dumpComponents",,16,16
+Private Method,"org.apache.felix.scr.integration.components.felix3680.Main.dumpState",,14,14
+Private Method,"org.apache.felix.scr.integration.components.felix3680.Main.getState",,31,31
+Public Method,"org.apache.felix.scr.integration.components.felix3680.Main.run",,58,55
+Method,"org.apache.felix.scr.integration.components.felix3680.Main.start",,8,8
+Method,"org.apache.felix.scr.integration.components.felix3680.Main.stop",,5,5
+Method,"org.apache.felix.scr.integration.components.felix3680.Main.unbindA",,8,8
+Package,"org.apache.felix.scr.integration.components.felix3680_2",2,636,344
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.A",1,55,35
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindB",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindC",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindD",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindE",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindF",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindG",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindH",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindI",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindJ",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.bindK",,3,3
+Method,"org.apache.felix.scr.integration.components.felix3680_2.A.start",,3,3
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.B",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.C",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.D",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.E",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.F",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.G",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.H",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.I",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.J",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.K",0,2,2
+Public Class,"org.apache.felix.scr.integration.components.felix3680_2.Main",3,301,261
+Class,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper",1,89,78
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.enableOrDisable",,29,29
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.register",,19,19
+Anonymous Class,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.register.(Anon_1)",2,14,14
+Public Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.register.(Anon_1).run",,13,13
+Public Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.registerBCDEFGHIJK",,4,4
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.unregister",,19,19
+Anonymous Class,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.unregister.(Anon_2)",2,14,14
+Public Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.unregister.(Anon_2).run",,13,13
+Public Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.RegistrationHelper.unregisterBCDEFGHIJK",,4,4
+Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.bindA",,23,21
+Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.bindLogService",,4,4
+Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.bindSCR",,4,4
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.dumpA",,6,6
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.dumpThreads",,18,18
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.getState",,32,32
+Private Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.iterate",,9,9
+Public Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.run",,48,43
+Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.start",,7,7
+Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.stop",,15,15
+Method,"org.apache.felix.scr.integration.components.felix3680_2.Main.unbindA",,9,9
+Package,"org.apache.felix.scr.integration.components.felix4188",1,46,22
+Public Class,"org.apache.felix.scr.integration.components.felix4188.Felix4188Component",1,23,19
+Method,"org.apache.felix.scr.integration.components.felix4188.Felix4188Component.start",,4,4
+Method,"org.apache.felix.scr.integration.components.felix4188.Felix4188Component.stop",,10,10
