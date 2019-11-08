@@ -1,0 +1,15 @@
+\begin{table}[htb!]				
+\centering				
+\caption{ Relative Standard Deviation of Bug-Fix Siza and Developer Experience at bug level }				
+\label{tab:bug-fix-variabilities}				
+\resizebox{0.6\columnwidth}{!}{				
+\begin{tabular}{ l| | c  r  c | c  r  c | c  r  c } \hline				
+\bfseries Project 	& \multicolumn{3}{c|}{\bfseries Bug-fix }	& \multicolumn{3}{c|}{\bfseries Dev. }  & \multicolumn{3}{c}{\bfseries Bug }\\ 		
+\bfseries  		& \multicolumn{3}{c|}{\bfseries Size} & \multicolumn{3}{c|}{\bfseries Experience}       & \multicolumn{3}{c}{\bfseries Cost}\\ \hline		
+
+insert_data
+
+
+\end{tabular}				
+}				
+\end{table}

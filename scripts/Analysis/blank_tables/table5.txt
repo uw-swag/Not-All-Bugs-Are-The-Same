@@ -1,0 +1,15 @@
+\begin{table}[hb!]% bt					
+\centering							
+\caption{Average $R^2$ values in each project when different dependent variables are used }%\fix{Average variance explained in each project when different dependent variables are used}}							
+\label{tab:summary-variability-explained-mean}							
+\resizebox{.85\columnwidth}{!}{							
+\begin{tabular}{l||r r r r| r|r} \hline							
+Project		&\multicolumn{3}{c|}{$\Yissues$} &\multicolumn{1}{c|}{$\Yeffort$} & \multicolumn{1}{c|}{$\Yexp$} & \multicolumn{1}{c}{$Y_{Priority}$} \\ \hline \hline	
+
+insert_data
+
+
+\end{tabular}							
+}							
+\vspace{1.5em}							
+\end{table}	

@@ -1,0 +1,16 @@
+
+\begin{table}[htb!]
+\centering
+\caption{Information on the releases studied in each of the projects}
+\label{tab:summary-per-release}
+\resizebox{\columnwidth}{!}{
+\begin{tabular}{l||c|c|c|c|c} \hline
+\bfseries Project	&	\bfseries Releases	&	 \bfseries \# Pre-release 	  &	 \bfseries \# Post-release	 &	\bfseries \# Files	&	\bfseries \# Buggy 	\\	
+	&		&	 \bfseries Commits	  &	 \bfseries Commits	 &		&	\bfseries Files	\\	\hline \hline 
+
+insert_data
+
+
+\end{tabular}
+}
+\end{table}

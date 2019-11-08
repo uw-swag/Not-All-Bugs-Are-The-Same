@@ -1,0 +1,26 @@
+\begin{table}%[tb!]
+\centering
+\caption{Description and aggregate metrics of the case study projects}
+%\caption{Information of the releases studied in all projects}
+\label{tab:projects-descriptions}
+\resizebox{1\columnwidth}{!}{
+\begin{tabular}{  l || l | r | r | r | r  } \hline
+%\bfseries Project	& \bfseries Description	& \bfseries \# Collected	& \bfseries \# Commits	& \bfseries \# Releases	 \\ 
+\bfseries Project	& \bfseries Description	& \bfseries \# 				& \bfseries \# 			& \bfseries \#          &                   \\ 
+\bfseries 			&                   	& \bfseries Bugs			& \bfseries Commits		& \bfseries Releases	& \bfseries Link \% \\ 
+                    &						& \bfseries Collected		& \bfseries Collected	& \bfseries	(Jira)		&                 \\ \hline \hline
+Accumulo	&	\pbox{20cm}{Distributed Storage System}	    &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Bookkeeper	&	\pbox{20cm}{Write-ahead logging service}	&	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Camel	&	\pbox{20cm}{Integration Framework}	            &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Cassandra	&	\pbox{20cm}{Distributed Storage System}	    &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+CXF	&	\pbox{20cm}{Web Service Framework}	                &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Derby	&	\pbox{20cm}{Relational Database}	            &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Felix	&	\pbox{20cm}{OSGI Service Platform}	            &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Hive	&	\pbox{20cm}{SQL-like Engine for Hadoop}	        &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+OpenJPA	&	\pbox{20cm}{Persistence Framework}	            &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Pig	&	\pbox{20cm}{Query Language for Hadoop}	            &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Wicket	&	\pbox{20cm}{Web Application Framework}	        &	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+Total	&	--	&	 n1n1 	 & 	 n2n2 	 & 	 n3n3   &   n4n4		\\ \hline
+\end{tabular} 
+}
+\end{table}

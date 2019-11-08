@@ -1,0 +1,18 @@
+
+\begin{table}[!ht]									
+\centering									
+\caption{Average contributions across three releases of each project from each independent variable when different dependent variables are used}									
+\label{tab:summary-contributions}									
+\resizebox{0.99\columnwidth}{!}{									
+\begin{tabular}{l||l | c| c| c| c} \cline{3-5}									
+\multicolumn{2}{c}{} & \multicolumn{3}{c}{Prediction Models} \\ \hline								
+Project &   Features    &   $\Yissues$     &   $\Yeffort$  &   $\Yexp$ &  {$Y_{Priority}$}   \\  \hline \hline
+
+
+insert_data
+	        
+	        
+\end{tabular}
+}			
+%\vspace{1.0em}
+\end{table}		

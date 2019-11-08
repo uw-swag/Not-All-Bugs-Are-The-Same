@@ -1,0 +1,19 @@
+\begin{table}[tb!]		
+\centering															
+\caption{Number of missed files over three releases of each project.}
+\label{fig:missed-files}
+\resizebox{0.98\columnwidth}{!}{	
+\begin{tabular}{ |l| | c  r  c | c  r  c |  }  \cline{2-7}
+\multicolumn{1}{c|}{}	& \multicolumn{6}{c|}{\bfseries Number of files missed when   } \\
+\multicolumn{1}{c|}{}	& \multicolumn{6}{c|}{ \bfseries using $\RANKissues$ instead of} \\ \cline{2-7}																			
+%Number of files missed when sorted based on Rank# Bugs instead of																				
+\multicolumn{1}{c|}{}	& \multicolumn{3}{c|}{$\RANKeffort$ }		& \multicolumn{3}{c|}{$\RANKexp$}	 \\ \hline 
+\bfseries Project  &	R1	&	R2	&	R3	&  R1	&	R2	&	R3 	\\ \hline \hline
+
+insert_data
+
+
+
+\end{tabular}																				
+}
+\end{table}	

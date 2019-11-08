@@ -1,0 +1,18 @@
+\begin{table}[!hb]								
+\centering								
+\caption{Correlation of the dependent variables for buggy files. \gema{I'm not sure about the number}}								
+\label{fig:correlation-cassandra}								
+\resizebox{0.89\columnwidth}{!}{		
+\begin{tabular}{ |l| | c  r  c | c  r  c | c  r  c | }  \cline{2-10}
+\multicolumn{1}{c|}{}	& \multicolumn{9}{c|}{\bfseries Correlation between $\Yissues$  } \\
+												
+%Number of files missed when sorted based on Rank# Bugs instead of																				
+\multicolumn{1}{c|}{}	& \multicolumn{3}{c|}{$\Yeffort$ }		& \multicolumn{3}{c|}{$\Yexp$}		& \multicolumn{3}{c|}{Y{Priority}}	 \\ \hline 
+\bfseries Project  &	R1	&	R2	&	R3	&  R1	&	R2	&	R3	&  R1	&	R2	&	R3 	\\ \hline \hline
+
+insert_data
+
+
+\end{tabular}																				
+}
+\end{table}	

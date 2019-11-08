@@ -1,0 +1,15 @@
+\begin{table*}[tb!]
+\centering
+\caption{Interquartile Ranges for Developer Experience for each of the 11 studied projects}
+\label{tab:interquartile-ranges}
+\small
+\resizebox{.98\textwidth}{!}{
+\begin{tabular}{l | c | c | c | c | c | c | c | c | c | c | c |}  \cline{2-12}
+	&	Accumulo	&	Bookkeeper	&	Camel	&	Cassandra	&	CXF	&	Derby	&	Felix	&	Hive	&	OpenJPA	&	Pig	&	Wicket		\\ \hhline{-===========}
+\multicolumn{1}{|l|}{Bug-fix size}	&	bfs-accumulo	&	bfs-bookkeeper	&	bfs-camel	&	bfs-cassandra	&	bfs-cxf	&	bfs-derby	&	bfs-felix	&	bfs-hive	&	bfs-openjpa	&	bfs-pig	&	bfs-wicket	\\
+\multicolumn{1}{|l|}{Dev. Experience} & exp-accumulo	&	exp-bookkeeper	&	exp-camel	&	exp-cassandra	&	exp-cxf	&	exp-derby	&	exp-felix	&	exp-hive	&	exp-openjpa	&	exp-pig	&	exp-wicket \\
+\multicolumn{1}{|l|}{Cost} 	&	cost-accumulo	&	cost-bookkeeper	&	cost-camel	&	cost-cassandra	&   cost-cxf	&	cost-derby	&	cost-felix	&	cost-hive	&	cost-openjpa	&	cost-pig & cost-wicket\\
+\hline
+\end{tabular}
+}
+\end{table*}
