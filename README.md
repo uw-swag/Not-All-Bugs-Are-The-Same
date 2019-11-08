@@ -11,24 +11,26 @@ Kilby James Baron (1), Harold Valdivia-Garcia (2), Gema Rodriguez-Perez (1), Mei
 
 
 <style>
-   .btn {
-  display: inline-block;
-  margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
-  border-style: solid;
-  border-width: 1px;
-  border-radius: 0.3rem;
-  transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
-  .btn + .btn {
-    margin-left: 1rem; }
+  .btn {
+     display: inline-block;
+     margin-bottom: 1rem;
+     color: rgba(255, 255, 255, 0.7);
+     background-color: rgba(255, 255, 255, 0.08);
+     border-color: rgba(255, 255, 255, 0.2);
+     border-style: solid;
+     border-width: 1px;
+     border-radius: 0.3rem;
+     transition: color 0.2s, background-color 0.2s, border-color 0.2s; }
+     .btn + .btn {
+       margin-left: 1rem; 
+   }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); } 
+     color: rgba(255, 255, 255, 0.8);
+     text-decoration: none;
+     background-color: rgba(255, 255, 255, 0.2);
+     border-color: rgba(255, 255, 255, 0.3); 
+  } 
 <\style>
 
 <a href="https://github.com/uw-swag/Not-All-Bugs-Are-The-Same" class="btn">View on GitHub</a>
