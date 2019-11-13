@@ -23,10 +23,6 @@ testing
 
 ---
 
-{% include button.html url="http://www.google.com" %}
-
----
-
 ## Abstract
 
 To prioritize bug-prone software entities, many previous studies use the number of bugs as dependent variable. Such a dependent variable assumes that "all bugs are the same". However, this assumption may not hold because bugs have different origin, impact or even cost. In fact, the dependent variable might differ depending practitioners' needs. For instance, industrial customers might prefer to prioritize bug-prone software entities based on their cost to fix rather than the number of bugs.
