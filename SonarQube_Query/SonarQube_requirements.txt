@@ -1,0 +1,12 @@
+SonarQube Requirements
+
+jdk-11.0.5_windows-x64
+gradle
+
+Java IDE
+HttpCore jar: https://mvnrepository.com/artifact/org.apache.httpcomponents/httpcore/4.4.1
+HttpClient jar: https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient/4.5
+commons-logging-1.2.jar: http://commons.apache.org/proper/commons-logging/download_logging.cgi
+JSON jar: https://mvnrepository.com/artifact/org.json/json/20140107
+
+Update path variable with: Java, gradle, anaconda
