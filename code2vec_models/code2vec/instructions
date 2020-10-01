@@ -1,0 +1,3 @@
+1. download code2vec from https://github.com/tech-srl/code2vec
+
+2. replace the interactive_predict.py file with the one in this folder, it has been modified (admittedly hackily) to output the vectors for use in this project.
